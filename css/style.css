@@ -1540,3 +1540,6 @@ ul {
 .footer-manchester {
   color: var(--yellow);
 }
+.footer-manchester .manchester-text {
+  color: var(--yellow);
+}
