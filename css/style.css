@@ -1471,7 +1471,7 @@ ul {
 /* Large decorative image at top of card */
 .card-image {
   width: 100%;
-  max-width: 160px;
+  max-width: 320px;
   margin: 0 0 14px;
   align-self: flex-start;
 }
