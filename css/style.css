@@ -1526,3 +1526,14 @@ ul {
     max-width: 120px;
   }
 }
+@media (max-width: 900px) {
+  .card-image {
+    max-width: 220px;
+  }
+}
+
+@media (max-width: 600px) {
+  .card-image {
+    max-width: 180px;
+  }
+}
