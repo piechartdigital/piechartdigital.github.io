@@ -1707,3 +1707,55 @@ ul {
 .why-cta {
   margin-top: 6px;
 }
+/* Why choose us: decorative pie server */
+.why-wrap {
+  position: relative;
+  max-width: 900px;
+  margin-inline: auto;
+  text-align: center;
+  padding-bottom: 36px;
+}
+
+.why-pie-server {
+  position: absolute;
+  left: 0;
+  bottom: 12px;
+  width: clamp(180px, 22vw, 320px);
+  height: auto;
+  pointer-events: none;
+  user-select: none;
+  z-index: 0;
+}
+
+/* Keep content above the decorative image */
+.why-head,
+.why-grid,
+.why-cta {
+  position: relative;
+  z-index: 1;
+}
+@media (max-width: 900px) {
+  .why-wrap {
+    padding-bottom: 180px;
+  }
+
+  .why-pie-server {
+    width: 220px;
+    left: 24px;
+    bottom: 8px;
+    opacity: 0.95;
+  }
+}
+
+@media (max-width: 700px) {
+  .why-wrap {
+    padding-bottom: 150px;
+  }
+
+  .why-pie-server {
+    width: 170px;
+    left: 50%;
+    bottom: 10px;
+    transform: translateX(-50%);
+  }
+}
