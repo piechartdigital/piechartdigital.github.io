@@ -1619,116 +1619,69 @@ ul {
 
 .section-why {
   background: #ffffff;
-}
-
-.why-wrap {
-  max-width: 900px;
-  margin-inline: auto;
-  text-align: center;
-}
-
-.why-head p {
-  max-width: 56ch;
-  margin-inline: auto;
-  color: var(--grey-600);
-}
-
-/* Grid layout for bullet points */
-
-.why-grid {
-  margin: 34px auto 36px;
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 14px 26px;
-  text-align: left;
-  max-width: 720px;
-}
-
-/* Make list items feel a bit stronger */
-
-.why-grid li {
-  font-weight: 600;
-  line-height: 1.4;
-}
-
-/* CTA alignment */
-
-.why-cta {
-  display: flex;
-  justify-content: center;
-}
-
-/* Mobile */
-
-@media (max-width: 700px) {
-
-  .why-grid {
-    grid-template-columns: 1fr;
-    gap: 12px;
-    max-width: 420px;
-  }
-/* =================================================
-   WHY CHOOSE US SECTION
-================================================= */
-
-.section-why {
   padding: clamp(36px, 4vw, 56px) 0;
 }
-
-/* Wrapper */
 
 .why-wrap {
   position: relative;
   max-width: 900px;
   margin-inline: auto;
   text-align: center;
-  padding-bottom: 60px;
+  padding-bottom: 90px;
   overflow: visible;
 }
-
-/* Heading */
 
 .why-head {
   margin-bottom: 18px;
 }
 
 .why-head p {
+  max-width: 56ch;
+  margin-inline: auto;
   margin-bottom: 8px;
+  color: var(--grey-600);
 }
 
-/* Bullet grid */
-
+/* Grid layout for bullet points */
 .why-grid {
   margin: 22px auto 26px;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 18px 36px;
+  text-align: left;
+  max-width: 720px;
 }
 
-/* Bullet text */
-
+/* Larger, stronger list items */
 .why-grid li {
   font-size: 1.3rem;
   font-weight: 700;
   line-height: 1.45;
 }
 
-/* Tick icon */
-
+/* Bigger yellow tick icons */
 .why-grid li::before {
   width: 24px;
   height: 24px;
   font-size: 14px;
 }
 
-/* CTA */
-
+/* CTA alignment */
 .why-cta {
+  display: flex;
+  justify-content: center;
   margin-top: 6px;
 }
 
-/* ================================================
-   Decorative pie server
-================================================ */
+/* Keep content above decorative bits */
+.why-head,
+.why-grid,
+.why-cta {
+  position: relative;
+  z-index: 1;
+}
 
+/* Decorative pie server */
 .why-pie-server {
   position: absolute;
   left: -60px;
@@ -1742,8 +1695,7 @@ ul {
   filter: drop-shadow(0 16px 18px rgba(0, 0, 0, 0.15));
 }
 
-/* Animated crumb particles */
-
+/* Decorative animated crumbs */
 .why-wrap::before,
 .why-wrap::after {
   content: "";
@@ -1752,7 +1704,6 @@ ul {
   user-select: none;
   z-index: 0;
   border-radius: 999px;
-  opacity: 0.9;
 }
 
 /* smaller scattered crumbs */
@@ -1762,6 +1713,7 @@ ul {
   width: 7px;
   height: 7px;
   background: #e3b23c;
+  opacity: 0.85;
   box-shadow:
     18px -6px 0 1px #f0c54a,
     34px 10px 0 0 #d9a62b,
@@ -1773,13 +1725,14 @@ ul {
   animation: crumb-drift-1 5.5s ease-in-out infinite;
 }
 
-/* slightly chunkier crumbs */
+/* chunkier crumbs */
 .why-wrap::after {
   left: 170px;
   bottom: 18px;
   width: 10px;
   height: 10px;
   background: #e8bc46;
+  opacity: 0.78;
   box-shadow:
     22px 12px 0 1px #d9a62b,
     48px -4px 0 2px #f0c54a,
@@ -1791,66 +1744,62 @@ ul {
 
 @keyframes crumb-drift-1 {
   0% {
-    transform: translateY(0) translateX(0) scale(1);
+    transform: translate(0, 0) scale(1);
     opacity: 0.65;
   }
   20% {
-    transform: translateY(2px) translateX(2px) scale(1.03);
+    transform: translate(2px, 2px) scale(1.03);
     opacity: 0.9;
   }
   50% {
-    transform: translateY(8px) translateX(8px) scale(0.98);
+    transform: translate(8px, 8px) scale(0.98);
     opacity: 0.8;
   }
   80% {
-    transform: translateY(4px) translateX(4px) scale(1.02);
+    transform: translate(4px, 4px) scale(1.02);
     opacity: 0.9;
   }
   100% {
-    transform: translateY(0) translateX(0) scale(1);
+    transform: translate(0, 0) scale(1);
     opacity: 0.65;
   }
 }
 
 @keyframes crumb-drift-2 {
   0% {
-    transform: translateY(0) translateX(0) scale(1);
+    transform: translate(0, 0) scale(1);
     opacity: 0.55;
   }
   25% {
-    transform: translateY(3px) translateX(-1px) scale(1.04);
+    transform: translate(-1px, 3px) scale(1.04);
     opacity: 0.88;
   }
   55% {
-    transform: translateY(10px) translateX(6px) scale(0.97);
+    transform: translate(6px, 10px) scale(0.97);
     opacity: 0.78;
   }
   85% {
-    transform: translateY(5px) translateX(2px) scale(1.02);
+    transform: translate(2px, 5px) scale(1.02);
     opacity: 0.88;
   }
   100% {
-    transform: translateY(0) translateX(0) scale(1);
+    transform: translate(0, 0) scale(1);
     opacity: 0.55;
   }
 }
 
-/* Ensure content sits above decorative image */
-
-.why-head,
-.why-grid,
-.why-cta {
-  position: relative;
-  z-index: 1;
-}
-
-/* ================================================
-   Tablet adjustments
-================================================ */
-
+/* Tablet */
 @media (max-width: 900px) {
   .why-wrap {
-    padding-bottom: 180px;
+    padding-bottom: 150px;
+  }
+
+  .why-grid {
+    gap: 16px 24px;
+  }
+
+  .why-grid li {
+    font-size: 1.1rem;
   }
 
   .why-pie-server {
@@ -1872,69 +1821,48 @@ ul {
   }
 }
 
-/* ================================================
-   Mobile layout
-================================================ */
-
-@media (max-width: 700px) {
+/* Mobile */
+@media (max-width: 560px) {
   .why-wrap {
-    padding-bottom: 160px;
+    padding-bottom: 110px;
+  }
+
+  .why-grid {
+    grid-template-columns: 1fr;
+    gap: 12px;
+    max-width: 420px;
+  }
+
+  .why-grid li {
+    font-size: 0.98rem;
+    line-height: 1.4;
+  }
+
+  .why-grid li::before {
+    width: 20px;
+    height: 20px;
+    font-size: 12px;
   }
 
   .why-pie-server {
-    width: 180px;
-    left: 50%;
-    bottom: 12px;
-    transform: translateX(-50%) rotate(-4deg);
+    width: 145px;
+    left: 8px;
+    bottom: 6px;
+    transform: rotate(-4deg);
   }
 
   .why-wrap::before {
-    left: 50%;
-    bottom: 30px;
-    transform: translateX(-20px);
-    animation: crumb-mobile-1 5.5s ease-in-out infinite;
+    left: 82px;
+    bottom: 24px;
   }
 
   .why-wrap::after {
-    left: 50%;
-    bottom: 14px;
-    transform: translateX(8px);
-    animation: crumb-mobile-2 6.25s ease-in-out infinite;
-  }
-}
-
-@keyframes crumb-mobile-1 {
-  0% {
-    transform: translateX(-20px) translateY(0);
-    opacity: 0.65;
-  }
-  50% {
-    transform: translateX(-10px) translateY(8px);
-    opacity: 0.9;
-  }
-  100% {
-    transform: translateX(-20px) translateY(0);
-    opacity: 0.65;
-  }
-}
-
-@keyframes crumb-mobile-2 {
-  0% {
-    transform: translateX(8px) translateY(0);
-    opacity: 0.55;
-  }
-  50% {
-    transform: translateX(16px) translateY(9px);
-    opacity: 0.85;
-  }
-  100% {
-    transform: translateX(8px) translateY(0);
-    opacity: 0.55;
+    left: 102px;
+    bottom: 10px;
   }
 }
 
 /* Respect reduced motion */
-
 @media (prefers-reduced-motion: reduce) {
   .why-wrap::before,
   .why-wrap::after {
