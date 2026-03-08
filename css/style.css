@@ -1805,7 +1805,7 @@ ul {
   .why-pie-server {
     width: 240px;
     left: 10px;
-    bottom: -10px;
+    bottom: -40px;
     transform: rotate(-6deg);
     opacity: 0.95;
   }
