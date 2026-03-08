@@ -1684,7 +1684,7 @@ ul {
 .why-pie-server {
   position: absolute;
   left: -60px;
-  bottom: -72px;
+  bottom: -90px;
   width: clamp(260px, 28vw, 420px);
   height: auto;
   transform: rotate(-8deg);
