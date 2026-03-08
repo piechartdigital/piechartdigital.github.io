@@ -1612,14 +1612,13 @@ ul {
   .section-alt .card-grid .card h3 {
     font-size: 1.6rem;
   }
-}
-/* ------------------------------
+}/* ------------------------------
    Why Choose Us
 ------------------------------ */
 
 .section-why {
   background: #ffffff;
-  padding: clamp(36px, 4vw, 56px) 0;
+  padding: clamp(32px, 3.5vw, 48px) 0 18px;
 }
 
 .why-wrap {
@@ -1627,7 +1626,7 @@ ul {
   max-width: 900px;
   margin-inline: auto;
   text-align: center;
-  padding-bottom: 90px;
+  padding-bottom: 56px;
   overflow: visible;
 }
 
@@ -1644,7 +1643,7 @@ ul {
 
 /* Grid layout for bullet points */
 .why-grid {
-  margin: 22px auto 26px;
+  margin: 22px auto 24px;
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 18px 36px;
@@ -1670,10 +1669,10 @@ ul {
 .why-cta {
   display: flex;
   justify-content: center;
-  margin-top: 6px;
+  margin-top: 4px;
 }
 
-/* Keep content above decorative bits */
+/* Keep content above decorative image */
 .why-head,
 .why-grid,
 .why-cta {
@@ -1681,11 +1680,11 @@ ul {
   z-index: 1;
 }
 
-/* Decorative pie server */
+/* Decorative pie server only */
 .why-pie-server {
   position: absolute;
   left: -60px;
-  bottom: -40px;
+  bottom: -72px;
   width: clamp(260px, 28vw, 420px);
   height: auto;
   transform: rotate(-8deg);
@@ -1695,103 +1694,10 @@ ul {
   filter: drop-shadow(0 16px 18px rgba(0, 0, 0, 0.15));
 }
 
-/* Decorative animated crumbs */
-.why-wrap::before,
-.why-wrap::after {
-  content: "";
-  position: absolute;
-  pointer-events: none;
-  user-select: none;
-  z-index: 0;
-  border-radius: 999px;
-}
-
-/* smaller scattered crumbs */
-.why-wrap::before {
-  left: 125px;
-  bottom: 38px;
-  width: 7px;
-  height: 7px;
-  background: #e3b23c;
-  opacity: 0.85;
-  box-shadow:
-    18px -6px 0 1px #f0c54a,
-    34px 10px 0 0 #d9a62b,
-    52px -2px 0 2px #f0c54a,
-    74px 12px 0 0 #d9a62b,
-    96px 4px 0 1px #f0c54a,
-    118px 16px 0 0 #d9a62b,
-    142px 6px 0 2px #f0c54a;
-  animation: crumb-drift-1 5.5s ease-in-out infinite;
-}
-
-/* chunkier crumbs */
-.why-wrap::after {
-  left: 170px;
-  bottom: 18px;
-  width: 10px;
-  height: 10px;
-  background: #e8bc46;
-  opacity: 0.78;
-  box-shadow:
-    22px 12px 0 1px #d9a62b,
-    48px -4px 0 2px #f0c54a,
-    72px 16px 0 0 #d9a62b,
-    102px 6px 0 2px #f0c54a,
-    132px 20px 0 1px #d9a62b;
-  animation: crumb-drift-2 6.25s ease-in-out infinite;
-}
-
-@keyframes crumb-drift-1 {
-  0% {
-    transform: translate(0, 0) scale(1);
-    opacity: 0.65;
-  }
-  20% {
-    transform: translate(2px, 2px) scale(1.03);
-    opacity: 0.9;
-  }
-  50% {
-    transform: translate(8px, 8px) scale(0.98);
-    opacity: 0.8;
-  }
-  80% {
-    transform: translate(4px, 4px) scale(1.02);
-    opacity: 0.9;
-  }
-  100% {
-    transform: translate(0, 0) scale(1);
-    opacity: 0.65;
-  }
-}
-
-@keyframes crumb-drift-2 {
-  0% {
-    transform: translate(0, 0) scale(1);
-    opacity: 0.55;
-  }
-  25% {
-    transform: translate(-1px, 3px) scale(1.04);
-    opacity: 0.88;
-  }
-  55% {
-    transform: translate(6px, 10px) scale(0.97);
-    opacity: 0.78;
-  }
-  85% {
-    transform: translate(2px, 5px) scale(1.02);
-    opacity: 0.88;
-  }
-  100% {
-    transform: translate(0, 0) scale(1);
-    opacity: 0.55;
-  }
-}
-
 /* Tablet */
 @media (max-width: 900px) {
   .why-wrap {
-    padding-bottom: 150px;
+    padding-bottom: 120px;
   }
 
   .why-grid {
@@ -1805,32 +1711,27 @@ ul {
   .why-pie-server {
     width: 240px;
     left: 10px;
-    bottom: -40px;
+    bottom: -58px;
     transform: rotate(-6deg);
     opacity: 0.95;
-  }
-
-  .why-wrap::before {
-    left: 118px;
-    bottom: 30px;
-  }
-
-  .why-wrap::after {
-    left: 150px;
-    bottom: 12px;
   }
 }
 
 /* Mobile */
 @media (max-width: 560px) {
+  .section-why {
+    padding: 28px 0 10px;
+  }
+
   .why-wrap {
-    padding-bottom: 110px;
+    padding-bottom: 86px;
   }
 
   .why-grid {
     grid-template-columns: 1fr;
     gap: 12px;
     max-width: 420px;
+    margin-bottom: 18px;
   }
 
   .why-grid li {
@@ -1847,25 +1748,7 @@ ul {
   .why-pie-server {
     width: 145px;
     left: 8px;
-    bottom: 6px;
+    bottom: -28px;
     transform: rotate(-4deg);
-  }
-
-  .why-wrap::before {
-    left: 82px;
-    bottom: 24px;
-  }
-
-  .why-wrap::after {
-    left: 102px;
-    bottom: 10px;
-  }
-}
-
-/* Respect reduced motion */
-@media (prefers-reduced-motion: reduce) {
-  .why-wrap::before,
-  .why-wrap::after {
-    animation: none;
   }
 }
