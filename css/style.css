@@ -1691,7 +1691,7 @@ ul {
 
 /* Larger text for credibility points */
 .why-grid li {
-  font-size: 1.1rem;
+  font-size: 1.3rem;
   font-weight: 700;
   line-height: 1.45;
 }
@@ -1705,5 +1705,5 @@ ul {
 
 /* Slightly reduce space under button */
 .why-cta {
-  margin-top: 8px;
+  margin-top: 6px;
 }
