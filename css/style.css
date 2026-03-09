@@ -837,6 +837,8 @@ ul {
   padding: 18px;
   box-shadow: 0 12px 0 rgba(0, 0, 0, 0.06);
   transition: transform var(--transition), box-shadow var(--transition);
+   display: flex;
+  flex-direction: column;
 }
 
 .card:hover {
@@ -1505,9 +1507,17 @@ ul {
   transform: translateY(-4px);
   box-shadow: 0 16px 0 rgba(0, 0, 0, 0.08);
 }
-
+.card-cta {
+  margin-top: auto;
+  display: inline-block;
+  font-size: 0.95rem;
+  transition: transform 220ms ease;
+}
 .card-link:hover .card-cta {
   opacity: 1;
+}
+.card:hover .card-cta {
+  transform: translateY(-2px);
 }
 
 /* Mobile tweaks */
