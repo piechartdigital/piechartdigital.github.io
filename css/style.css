@@ -1838,14 +1838,11 @@ ul {
   text-decoration: none;
 }
 
-.blog-preview-cta {
-  display: inline-block;
-  font-weight: 800;
-  text-decoration: underline;
-  text-decoration-thickness: 2px;
-  text-underline-offset: 4px;
-}
 
+.blog-preview-cta {
+  margin-top: 6px;
+  font-size: 0.95rem;
+}
 @media (max-width: 900px) {
   .blog-preview-grid {
     grid-template-columns: 1fr;
