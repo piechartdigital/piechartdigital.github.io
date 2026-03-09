@@ -1862,3 +1862,16 @@ ul {
     align-items: flex-start;
   }
 }
+@media (max-width: 640px) {
+
+  .blog-preview-head {
+    text-align: left;
+  }
+
+  .blog-preview-btn {
+    position: static;
+    transform: none;
+    margin-top: 14px;
+  }
+
+}
