@@ -1013,8 +1013,11 @@ h3 {
 
 .why-cta {
   display: flex;
-  justify-content: center;
-  margin-top: 4px;
+  justify-content: flex-start;
+  width: 100%;
+  max-width: 720px;
+  margin: 4px auto 0;
+  padding-left: calc(50% + 18px);
 }
 
 .why-head,
@@ -1026,7 +1029,7 @@ h3 {
 
 .why-pie-server {
   position: absolute;
-  left: -100px;
+  left: -35px;
   bottom: -140px;
   width: clamp(260px, 28vw, 420px);
   height: auto;
@@ -1049,7 +1052,11 @@ h3 {
   .why-grid li {
     font-size: 1.1rem;
   }
-
+.why-cta {
+  justify-content: center;
+  max-width: none;
+  padding-left: 0;
+}
   .why-pie-server {
     width: 440px;
     left: 10px;
