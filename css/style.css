@@ -1551,3 +1551,34 @@ h3 {
     font-size: 1.7rem;
   }
 }
+.card-link .card-cta {
+  margin-top: auto;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  align-self: flex-start;
+  min-height: 48px;
+  padding: 12px 18px;
+  border-radius: var(--radius-pill);
+  background: rgba(255, 255, 255, 0.92);
+  color: #0b0b0b;
+  border: 2px solid rgba(0, 0, 0, 0.14);
+  box-shadow: 0 10px 0 rgba(0, 0, 0, 0.12);
+  text-align: center;
+  font-size: 0.95rem;
+  font-weight: 800;
+  line-height: 1;
+  text-decoration: none;
+  opacity: 1;
+  transition: transform var(--transition), box-shadow var(--transition), background var(--transition), color var(--transition);
+}
+
+.card-link:hover .card-cta,
+.card-link:focus-visible .card-cta {
+  transform: translateY(-1px);
+  box-shadow: 0 12px 0 rgba(0, 0, 0, 0.12);
+}
+
+.card-link .card-cta::after {
+  content: none;
+}
