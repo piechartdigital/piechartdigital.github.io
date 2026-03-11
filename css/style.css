@@ -1841,3 +1841,12 @@ h3 {
     padding: 20px;
   }
 }
+.services-hero {
+  background: var(--yellow);
+  padding: clamp(54px, 6.5vw, 88px) 0;
+  position: relative;
+  overflow: hidden;
+}
+.services-hero__inner {
+  max-width: 720px;
+}
