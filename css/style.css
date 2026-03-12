@@ -1928,3 +1928,33 @@ h3 {
   height: auto;
   pointer-events: none;
 }
+.services-hero {
+  background: var(--yellow);
+  padding: clamp(32px, 4vw, 56px) 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.services-hero-pie {
+  position: absolute;
+  top: 0;
+  right: clamp(40px, 6vw, 140px);
+  width: clamp(180px, 18vw, 260px);
+  height: auto;
+  pointer-events: none;
+}
+.services-hero {
+  background: var(--yellow);
+  padding: clamp(32px, 4vw, 56px) 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.services-hero-pie {
+  position: absolute;
+  top: 0;
+  right: clamp(40px, 6vw, 140px);
+  width: clamp(180px, 18vw, 260px);
+  height: auto;
+  pointer-events: none;
+}
