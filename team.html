@@ -105,6 +105,18 @@
       text-align: center;
     }
 
+    .team-callout__icon {
+      width: min(180px, 34vw);
+      margin: 0 auto 10px;
+      display: block;
+    }
+
+    .team-callout__icon img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
     .team-callout__inner h2 {
       margin-bottom: 12px;
     }
@@ -140,6 +152,11 @@
 
       .team-card__content h2 {
         font-size: 1.35rem;
+      }
+
+      .team-callout__icon {
+        width: min(140px, 42vw);
+        margin-bottom: 6px;
       }
     }
   </style>
@@ -264,7 +281,12 @@
     <section class="team-callout">
       <div class="container">
         <div class="team-callout__inner">
-          <p class="section-kicker">Careers</p>
+          <div class="team-callout__icon">
+            <img
+              src="image/team-briefcase-pie.png"
+              alt="Pie slice character in a tie holding a briefcase"
+            />
+          </div>
           <h2>We’re always on the lookout for good people</h2>
           <p>
             If you think you can bring something valuable to Piechart Digital and help
