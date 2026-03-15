@@ -2004,3 +2004,19 @@ h3 {
   padding: 14px 24px;
   box-shadow: 0 12px 0 rgba(0,0,0,0.18);
 }
+   .service-detail-buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 22px;
+}
+
+.service-back-top {
+  font-size: 0.9rem;
+}
+
+.service-contact {
+  font-size: 1.05rem;
+  padding: 14px 24px;
+  box-shadow: 0 12px 0 rgba(0,0,0,0.18);
+}
