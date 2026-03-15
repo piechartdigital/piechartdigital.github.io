@@ -14,7 +14,135 @@
     href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;700;800&display=swap"
     rel="stylesheet"
   />
-  <link rel="stylesheet" href="css/style.css?v=2" />
+  <link rel="stylesheet" href="css/style.css?v=3" />
+
+  <style>
+    /* Team page only, kept inline temporarily to avoid any css/style.css parsing issue */
+
+    .team-hero {
+      background: var(--yellow);
+      padding: clamp(32px, 4vw, 56px) 0;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .team-hero__inner {
+      max-width: 720px;
+    }
+
+    .team-hero__inner p:last-child {
+      max-width: 62ch;
+      color: var(--grey-600);
+    }
+
+    .team-grid-section {
+      padding: clamp(34px, 4vw, 56px) 0;
+    }
+
+    .team-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 18px;
+    }
+
+    .team-card {
+      display: grid;
+      grid-template-columns: 120px 1fr;
+      gap: 18px;
+      align-items: start;
+      background: #ffffff;
+      border-radius: var(--radius-card);
+      border: var(--border);
+      box-shadow: 0 12px 0 rgba(0, 0, 0, 0.06);
+      padding: 20px;
+    }
+
+    .team-card__avatar {
+      width: 120px;
+      height: 120px;
+      border-radius: 18px;
+      overflow: hidden;
+      border: var(--border);
+      background: var(--grey-50);
+      display: grid;
+      place-items: center;
+      flex: 0 0 auto;
+    }
+
+    .team-card__avatar img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .team-card__content h2 {
+      margin: 0 0 6px;
+      font-size: 1.6rem;
+      line-height: 1.1;
+    }
+
+    .team-card__role {
+      margin: 0 0 12px;
+      font-weight: 800;
+      color: var(--grey-600);
+    }
+
+    .team-card__content p:last-child {
+      margin-bottom: 0;
+      color: rgba(0, 0, 0, 0.82);
+    }
+
+    .team-callout {
+      padding: 0 0 clamp(54px, 6vw, 84px);
+    }
+
+    .team-callout__inner {
+      background: var(--yellow);
+      border-radius: 24px;
+      border: var(--border);
+      box-shadow: 0 12px 0 rgba(0, 0, 0, 0.08);
+      padding: clamp(24px, 4vw, 40px);
+      text-align: center;
+    }
+
+    .team-callout__inner h2 {
+      margin-bottom: 12px;
+    }
+
+    .team-callout__inner p {
+      max-width: 60ch;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .team-callout__inner a {
+      font-weight: 800;
+      text-decoration: underline;
+      text-decoration-thickness: 2px;
+      text-underline-offset: 4px;
+    }
+
+    @media (max-width: 900px) {
+      .team-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    @media (max-width: 600px) {
+      .team-card {
+        grid-template-columns: 1fr;
+      }
+
+      .team-card__avatar {
+        width: 96px;
+        height: 96px;
+      }
+
+      .team-card__content h2 {
+        font-size: 1.35rem;
+      }
+    }
+  </style>
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
@@ -72,7 +200,7 @@
         <div class="team-grid">
           <article class="team-card">
             <div class="team-card__avatar">
-              <img src="image/team-placeholder-1.png" alt="Placeholder team member avatar" />
+              <img src="image/logo-piechart.png" alt="Placeholder team member avatar" />
             </div>
             <div class="team-card__content">
               <h2>Jamie Parker</h2>
@@ -87,7 +215,7 @@
 
           <article class="team-card">
             <div class="team-card__avatar">
-              <img src="image/team-placeholder-2.png" alt="Placeholder team member avatar" />
+              <img src="image/logo-piechart.png" alt="Placeholder team member avatar" />
             </div>
             <div class="team-card__content">
               <h2>Alex Morgan</h2>
@@ -102,7 +230,7 @@
 
           <article class="team-card">
             <div class="team-card__avatar">
-              <img src="image/team-placeholder-3.png" alt="Placeholder team member avatar" />
+              <img src="image/logo-piechart.png" alt="Placeholder team member avatar" />
             </div>
             <div class="team-card__content">
               <h2>Sam Taylor</h2>
@@ -117,7 +245,7 @@
 
           <article class="team-card">
             <div class="team-card__avatar">
-              <img src="image/team-placeholder-4.png" alt="Placeholder team member avatar" />
+              <img src="image/logo-piechart.png" alt="Placeholder team member avatar" />
             </div>
             <div class="team-card__content">
               <h2>Jordan Reed</h2>
@@ -152,7 +280,7 @@
     <div class="container footer-inner">
       <div class="footer-left">
         <div class="footer-brand">
-          <img src="image/piechart-logo.png" alt="Piechart Digital logo" class="footer-logo" />
+          <img src="image/logo-piechart.png" alt="Piechart Digital logo" class="footer-logo" />
           <strong>Piechart Digital</strong>
         </div>
         <p class="footer-note">Bold marketing, clean execution.</p>
