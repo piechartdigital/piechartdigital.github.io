@@ -14,152 +14,7 @@
     href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;700;800&display=swap"
     rel="stylesheet"
   />
-  <link rel="stylesheet" href="css/style.css?v=3" />
-
-  <style>
-    /* Team page only, kept inline temporarily to avoid any css/style.css parsing issue */
-
-    .team-hero {
-      background: var(--yellow);
-      padding: clamp(32px, 4vw, 56px) 0;
-      position: relative;
-      overflow: hidden;
-    }
-
-    .team-hero__inner {
-      max-width: 720px;
-    }
-
-    .team-hero__inner p:last-child {
-      max-width: 62ch;
-      color: var(--grey-600);
-    }
-
-    .team-grid-section {
-      padding: clamp(34px, 4vw, 56px) 0;
-    }
-
-    .team-grid {
-      display: grid;
-      grid-template-columns: repeat(2, minmax(0, 1fr));
-      gap: 18px;
-    }
-
-    .team-card {
-      display: grid;
-      grid-template-columns: 120px 1fr;
-      gap: 18px;
-      align-items: start;
-      background: #ffffff;
-      border-radius: var(--radius-card);
-      border: var(--border);
-      box-shadow: 0 12px 0 rgba(0, 0, 0, 0.06);
-      padding: 20px;
-    }
-
-    .team-card__avatar {
-      width: 120px;
-      height: 120px;
-      border-radius: 18px;
-      overflow: hidden;
-      border: var(--border);
-      background: var(--grey-50);
-      display: grid;
-      place-items: center;
-      flex: 0 0 auto;
-    }
-
-    .team-card__avatar img {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-    }
-
-    .team-card__content h2 {
-      margin: 0 0 6px;
-      font-size: 1.6rem;
-      line-height: 1.1;
-    }
-
-    .team-card__role {
-      margin: 0 0 12px;
-      font-weight: 800;
-      color: var(--grey-600);
-    }
-
-    .team-card__content p:last-child {
-      margin-bottom: 0;
-      color: rgba(0, 0, 0, 0.82);
-    }
-
-    .team-callout {
-      padding: 0 0 clamp(54px, 6vw, 84px);
-    }
-
-    .team-callout__inner {
-      background: var(--yellow);
-      border-radius: 24px;
-      border: var(--border);
-      box-shadow: 0 12px 0 rgba(0, 0, 0, 0.08);
-      padding: clamp(24px, 4vw, 40px);
-      text-align: center;
-    }
-
-    .team-callout__icon {
-      width: min(180px, 34vw);
-      margin: 0 auto 10px;
-      display: block;
-    }
-
-    .team-callout__icon img {
-      width: 100%;
-      height: auto;
-      display: block;
-    }
-
-    .team-callout__inner h2 {
-      margin-bottom: 12px;
-    }
-
-    .team-callout__inner p {
-      max-width: 60ch;
-      margin-left: auto;
-      margin-right: auto;
-    }
-
-    .team-callout__inner a {
-      font-weight: 800;
-      text-decoration: underline;
-      text-decoration-thickness: 2px;
-      text-underline-offset: 4px;
-    }
-
-    @media (max-width: 900px) {
-      .team-grid {
-        grid-template-columns: 1fr;
-      }
-    }
-
-    @media (max-width: 600px) {
-      .team-card {
-        grid-template-columns: 1fr;
-      }
-
-      .team-card__avatar {
-        width: 96px;
-        height: 96px;
-      }
-
-      .team-card__content h2 {
-        font-size: 1.35rem;
-      }
-
-      .team-callout__icon {
-        width: min(140px, 42vw);
-        margin-bottom: 6px;
-      }
-    }
-  </style>
+  <link rel="stylesheet" href="css/style.css?v=4" />
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
@@ -202,11 +57,10 @@
       <div class="container">
         <div class="team-hero__inner">
           <p class="section-kicker">Team</p>
-          <h1>Meet the Piechart Team!</h1>
+          <h1>Less talk. More marketing that works.</h1>
           <p>
-            Piechart Digital is built around practical thinking, strong creative,
-            and support that actually helps businesses move forward. Here’s the team
-            behind the work.
+            A small Manchester team focused on practical strategy, strong creative,
+            and campaigns that actually deliver.
           </p>
         </div>
       </div>
@@ -217,44 +71,44 @@
         <div class="team-grid">
           <article class="team-card">
             <div class="team-card__avatar">
-              <img src="image/logo-piechart.png" alt="Placeholder team member avatar" />
+              <img src="image/logo-piechart.png" alt="Jay Perrin avatar" />
             </div>
             <div class="team-card__content">
               <h2>Jay Perrin</h2>
               <p class="team-card__role">Founder & Strategy Lead</p>
               <p>
-                Jay helps shape campaigns, landing pages and creative direction
-                across the business. Focused on clear thinking, strong positioning,
-                and making sure the work delivers useful results.
+                Jay shapes strategy, campaign direction and landing page thinking
+                across the business. Focused on clarity, performance and making sure
+                the work leads somewhere useful.
               </p>
             </div>
           </article>
 
           <article class="team-card">
             <div class="team-card__avatar">
-              <img src="image/logo-piechart.png" alt="Placeholder team member avatar" />
+              <img src="image/logo-piechart.png" alt="Madeline Cochrane avatar" />
             </div>
             <div class="team-card__content">
               <h2>Madeline Cochrane</h2>
               <p class="team-card__role">Business Development & Admin</p>
               <p>
-                Alex supports campaign setup, optimisation and reporting across paid
-                channels. Strong on structure, testing and turning ad spend into
-                clearer performance and better quality leads.
+                Madeline helps keep projects moving, conversations organised and new
+                opportunities on track. Strong on communication, coordination and the
+                detail that keeps good work running smoothly.
               </p>
             </div>
           </article>
 
           <article class="team-card">
             <div class="team-card__avatar">
-              <img src="image/logo-piechart.png" alt="Placeholder team member avatar" />
+              <img src="image/logo-piechart.png" alt="Steve Cochrane avatar" />
             </div>
             <div class="team-card__content">
               <h2>Steve Cochrane</h2>
               <p class="team-card__role">Content & Creative</p>
               <p>
-                Sam works across copy, visuals and campaign ideas that help brands
-                look sharper and say something worth paying attention to. Less filler,
+                Steve works across messaging, ideas and creative support that helps
+                brands look sharper and say something worth noticing. Less filler,
                 more useful creative.
               </p>
             </div>
@@ -262,15 +116,15 @@
 
           <article class="team-card">
             <div class="team-card__avatar">
-              <img src="image/logo-piechart.png" alt="Placeholder team member avatar" />
+              <img src="image/logo-piechart.png" alt="Mark Disney avatar" />
             </div>
             <div class="team-card__content">
               <h2>Mark Disney</h2>
               <p class="team-card__role">Web & Landing Page Support</p>
               <p>
-                Jordan focuses on clean page builds, conversion-focused layouts and
-                helping websites support the wider marketing properly. Strong on the
-                details that help pages actually do their job.
+                Mark focuses on clean builds, conversion-focused layouts and making
+                sure websites properly support the wider marketing. Strong on the
+                details that help pages do their job.
               </p>
             </div>
           </article>
@@ -278,25 +132,28 @@
       </div>
     </section>
 
-<section class="team-callout">
-  <div class="container">
-    <div class="team-callout__inner">
-      <div class="team-callout__icon">
-        <img src="image/team-briefcase-pie.png" alt="Pie slice character holding a briefcase" />
+    <section class="team-callout">
+      <div class="container">
+        <div class="team-callout__inner">
+          <div class="team-callout__icon">
+            <img
+              src="image/team-briefcase-pie.png"
+              alt="Pie slice character in a tie holding a briefcase"
+            />
+          </div>
+
+          <div class="team-callout__pill">Careers</div>
+
+          <h2>If you build useful marketing, we should talk.</h2>
+
+          <p>
+            If you think you can bring something valuable to Piechart Digital and help
+            our clients do better work, send your details to
+            <a href="mailto:jobs@piechartdigital.co.uk">jobs@piechartdigital.co.uk</a>.
+          </p>
+        </div>
       </div>
-
-      <div class="team-callout__pill">Careers</div>
-
-      <h2>We’re always on the lookout for good people</h2>
-
-      <p>
-        If you think you can bring something valuable to Piechart Digital and help
-        our clients do better work, send your details to
-        <a href="mailto:jobs@piechartdigital.co.uk">jobs@piechartdigital.co.uk</a>.
-      </p>
-    </div>
-  </div>
-</section>
+    </section>
   </main>
 
   <footer class="site-footer">
