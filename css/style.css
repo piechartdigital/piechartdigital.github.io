@@ -2170,8 +2170,8 @@ h3 {
   }
 }
 .team-callout__icon {
-  width: 220px;
-  margin: 0 auto 10px;
+  width: 170px;
+  margin-bottom: 8px;
 }
 
 .team-callout__icon img {
@@ -2205,10 +2205,9 @@ h3 {
 }
 
 .team-callout__icon {
-  width: 220px;
-  margin: 0 auto 10px;
+  width: 170px;
+  margin-bottom: 8px;
 }
-
 .team-callout__icon img {
   width: 100%;
   height: auto;
