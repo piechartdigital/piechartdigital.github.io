@@ -1918,7 +1918,7 @@ h3 {
 @media (max-width: 900px) {
   .services-hero-pie {
     right: -40px;
-    width: clamp(70px, 20vw, 100px);
+    width: clamp(100px, 30vw, 180px);
     opacity: 0.9;
   }
 
