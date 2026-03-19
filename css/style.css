@@ -2511,3 +2511,10 @@ h3 {
   margin: 0 0 1rem 18px;
   list-style: disc;
 }
+.blog-article {
+  padding-top: 48px;
+}
+.blog-article__container {
+  max-width: 760px;
+  margin-top: 40px;
+}
