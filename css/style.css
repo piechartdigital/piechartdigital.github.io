@@ -2552,3 +2552,6 @@ h3 {
   background: rgba(255, 255, 255, 0.2);
   color: var(--yellow);
 }
+.blog-article {
+  padding-top: 24px; /* was 48px */
+}
