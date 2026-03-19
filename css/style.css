@@ -2448,3 +2448,38 @@ h3 {
   .blog-grid > :nth-child(9)  { order: 9; }
   .blog-grid > :nth-child(10) { order: 10; }
 }
+/* Blog Article */
+
+.blog-article__container {
+  max-width: 760px;
+}
+
+.blog-back {
+  display: inline-block;
+  margin-bottom: 12px;
+  font-weight: 700;
+}
+
+.blog-meta {
+  color: var(--grey-600);
+  font-size: 0.9rem;
+  margin-bottom: 16px;
+}
+
+.blog-featured-image {
+  border-radius: var(--radius-card);
+  margin-bottom: 24px;
+}
+
+.blog-content h2 {
+  margin-top: 28px;
+}
+
+.blog-content p {
+  line-height: 1.7;
+}
+
+.blog-content ul {
+  margin: 0 0 1rem 18px;
+  list-style: disc;
+}
