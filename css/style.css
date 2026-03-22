@@ -2788,3 +2788,7 @@ h3 {
   font-size: 0.9rem;
   color: var(--grey-600);
 }
+.contact-details__link {
+  font-size: 1.35rem !important;
+  font-weight: 800 !important;
+}
