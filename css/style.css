@@ -2794,7 +2794,7 @@ h3 {
 }
 .contact-hero-pie {
   position: absolute;
-  right: clamp(50px, 18vw, 300px);
+  right: clamp(20px, 18vw, 500px);
   top: 50%;
   transform: translateY(-50%);
   width: clamp(200px, 20vw, 280px);
