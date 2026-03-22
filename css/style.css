@@ -2794,10 +2794,10 @@ h3 {
 }
 .contact-hero-pie {
   position: absolute;
-  right: clamp(20px, 18vw, 20px);
+  right: clamp(500px, 18vw, 20px);
   top: 50%;
   transform: translateY(-50%);
-  width: clamp(400px, 20vw, 280px);
+  width: clamp(200px, 20vw, 280px);
   height: auto;
   pointer-events: none;
   z-index: 1;
