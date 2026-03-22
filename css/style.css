@@ -2783,3 +2783,8 @@ h3 {
     font-size: 1.15rem;
   }
 }
+.contact-details__group h3 {
+  margin-bottom: 6px;
+  font-size: 0.9rem;
+  color: var(--grey-600);
+}
