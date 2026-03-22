@@ -2792,3 +2792,23 @@ h3 {
   font-size: 1.35rem !important;
   font-weight: 800 !important;
 }
+.contact-hero-pie {
+  position: absolute;
+  right: clamp(140px, 18vw, 320px);
+  top: 50%;
+  transform: translateY(-50%);
+  width: clamp(180px, 20vw, 280px);
+  height: auto;
+  pointer-events: none;
+  z-index: 1;
+}
+
+@media (max-width: 900px) {
+  .contact-hero-pie {
+    position: static;
+    transform: none;
+    display: block;
+    margin: 20px auto 0;
+    width: clamp(140px, 48vw, 220px);
+  }
+}
