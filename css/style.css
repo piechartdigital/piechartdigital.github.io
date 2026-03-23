@@ -2853,3 +2853,43 @@ h3 {
     transform: rotate(-6deg);
   }
 }
+.header-inner {
+  display: flex;
+  align-items: center;
+}
+
+.header-socials {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-right: 16px;
+}
+
+.header-socials a {
+  width: 40px;
+  height: 40px;
+  border-radius: 12px;
+  background: #111111;
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.2s ease;
+}
+
+.header-socials a:hover {
+  transform: translateY(-2px);
+}
+
+.header-socials svg {
+  width: 18px;
+  height: 18px;
+  fill: #ffffff;
+}
+
+/* Hide completely on mobile */
+@media (max-width: 768px) {
+  .header-socials {
+    display: none;
+  }
+}
