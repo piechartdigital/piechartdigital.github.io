@@ -1114,7 +1114,7 @@ h3 {
   .why-pie-server {
     width: 170px;            /* slightly bigger while we're here */
     left: 12px;
-    bottom: -80px;           /* pushes it further down */
+    bottom: -120px;           /* pushes it further down */
     transform: rotate(-4deg);
   }
 }
@@ -2925,4 +2925,12 @@ h3 {
 }
 .section-blog-preview {
   padding-top: 24px;
+}
+@media (max-width: 560px) {
+  .why-pie-server {
+    width: 170px;            /* slightly bigger while we're here */
+    left: 12px;
+    bottom: -120px;           /* pushes it further down */
+    transform: rotate(-4deg);
+  }
 }
