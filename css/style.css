@@ -2904,3 +2904,22 @@ h3 {
     display: none;
   }
 }
+@media (min-width: 900px) {
+  .brand-logo {
+    width: 64px;
+    height: 64px;
+  }
+
+  .brand-name {
+    font-size: 1.9rem;
+  }
+
+  .brand-tagline {
+    font-size: 1.05rem;
+  }
+}
+@media (min-width: 900px) {
+  .hero-dashboard {
+    max-width: 680px;
+  }
+}
