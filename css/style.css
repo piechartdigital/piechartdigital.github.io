@@ -2930,7 +2930,7 @@ h3 {
   .why-pie-server {
     width: 170px;            /* slightly bigger while we're here */
     left: 12px;
-    bottom: -120px;           /* pushes it further down */
+    bottom: -90px;           /* pushes it further down */
     transform: rotate(-4deg);
   }
 }
