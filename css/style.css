@@ -2928,9 +2928,9 @@ h3 {
 }
 @media (max-width: 560px) {
   .why-pie-server {
-    width: 170px;            /* slightly bigger while we're here */
+    width: 250px;            /* slightly bigger while we're here */
     left: 12px;
-    bottom: -90px;           /* pushes it further down */
+    bottom: -80px;           /* pushes it further down */
     transform: rotate(-4deg);
   }
 }
