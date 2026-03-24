@@ -2947,3 +2947,14 @@ h3 {
     align-items: flex-start;
   }
 }
+.careers-email {
+  font-size: 3rem;
+  font-weight: 800;
+  display: inline-block;
+  margin-top: 6px;
+}
+@media (max-width: 600px) {
+  .careers-email {
+    font-size: 1.6rem;
+  }
+}
