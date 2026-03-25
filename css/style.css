@@ -2966,7 +2966,7 @@ h3 {
 @media (min-width: 1100px) {
   .hero-pie-slice {
     right: -20px;      /* bring it closer to the image */
-    bottom: -60px;     /* lift it slightly */
+    bottom: -10px;     /* lift it slightly */
     width: 260px;      /* scale it up a touch */
     transform: rotate(24deg);
   }
