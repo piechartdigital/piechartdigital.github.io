@@ -3003,6 +3003,10 @@ h3 {
    Portfolio Page
 ------------------------------ */
 
+/* ------------------------------
+   Portfolio Page
+------------------------------ */
+
 .portfolio-hero {
   background: var(--yellow);
   padding: clamp(32px, 4vw, 56px) 0;
@@ -3077,13 +3081,14 @@ h3 {
   font-size: clamp(2rem, 3vw, 3rem);
   line-height: 1.02;
   color: #ffffff;
-  text-transform: uppercase;
+  text-transform: none;
+  letter-spacing: -0.01em;
 }
 
 .portfolio-card__content p {
   margin: 0 0 34px;
-  color: rgba(255, 255, 255, 0.9);
-  font-size: 1.05rem;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 0.95rem;
   font-weight: 600;
 }
 
@@ -3094,10 +3099,18 @@ h3 {
   min-height: 54px;
   padding: 14px 24px;
   border-radius: var(--radius-pill);
-  background: #f59a1b;
-  color: #ffffff;
-  font-weight: 700;
-  box-shadow: 0 10px 0 rgba(0, 0, 0, 0.16);
+  background: var(--yellow);
+  color: #0b0b0b;
+  border: 2px solid rgba(0, 0, 0, 0.14);
+  font-weight: 800;
+  box-shadow: 0 10px 0 rgba(0, 0, 0, 0.18);
+  transition: transform var(--transition), box-shadow var(--transition), color 120ms ease;
+}
+
+.portfolio-card__cta:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 12px 0 rgba(0, 0, 0, 0.18);
+  color: #000000;
 }
 
 .portfolio-card__cta span {
