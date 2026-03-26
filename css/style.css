@@ -488,7 +488,7 @@ h3 {
 .hero-pie-slice {
   position: absolute;
   right: clamp(-18px, -1.5vw, -4px);
-  bottom: clamp(-140px, -5.5vw, -40px);
+  bottom: clamp(-50px, -5.5vw, -40px);
   width: clamp(140px, 20vw, 240px);
   transform: rotate(26deg);
   transform-origin: 50% 60%;
