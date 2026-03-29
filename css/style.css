@@ -3333,3 +3333,17 @@ h3 {
   opacity: 1;
   transform: translateY(0);
 }
+.neuro-hero {
+  position: relative;
+  background: #ffd400; /* your yellow */
+  overflow: hidden;
+}
+
+.neuro-hero-pie {
+  position: absolute;
+  right: 6%;
+  bottom: -20px;
+  width: clamp(220px, 28vw, 360px);
+  height: auto;
+  pointer-events: none;
+}
