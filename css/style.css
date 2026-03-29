@@ -3244,7 +3244,7 @@ h3 {
   background-repeat: no-repeat;
   background-position: center;
   opacity: 0;
-  transform: translate(0, 0) scale(0.55) rotate(0deg);
+  transform: translate(0, 0) scale(0.5) rotate(0deg);
 }
 
 .footer-manchester:hover .manchester-bee {
@@ -3253,38 +3253,46 @@ h3 {
 
 @media (hover: hover) and (pointer: fine) and (min-width: 901px) {
   .footer-manchester:hover .mini-bee {
-    animation: bee-burst 1.6s ease-out forwards;
+    animation: bee-swarm-fly 2.8s cubic-bezier(0.22, 1, 0.36, 1) forwards;
   }
 
-  .footer-manchester:hover .mini-bee-1  { animation-delay: 0.00s; --tx: 30px;  --ty: -18px;  --rot: 10deg; }
-  .footer-manchester:hover .mini-bee-2  { animation-delay: 0.03s; --tx: 52px;  --ty: -34px;  --rot: -14deg; }
-  .footer-manchester:hover .mini-bee-3  { animation-delay: 0.06s; --tx: 76px;  --ty: -10px;  --rot: 18deg; }
-  .footer-manchester:hover .mini-bee-4  { animation-delay: 0.09s; --tx: 98px;  --ty: -46px;  --rot: -22deg; }
-  .footer-manchester:hover .mini-bee-5  { animation-delay: 0.12s; --tx: 126px; --ty: -20px;  --rot: 16deg; }
-  .footer-manchester:hover .mini-bee-6  { animation-delay: 0.15s; --tx: 148px; --ty: -54px;  --rot: -12deg; }
-  .footer-manchester:hover .mini-bee-7  { animation-delay: 0.18s; --tx: 172px; --ty: -14px;  --rot: 24deg; }
-  .footer-manchester:hover .mini-bee-8  { animation-delay: 0.21s; --tx: 196px; --ty: -38px;  --rot: -18deg; }
-  .footer-manchester:hover .mini-bee-9  { animation-delay: 0.24s; --tx: 222px; --ty: -8px;   --rot: 12deg; }
-  .footer-manchester:hover .mini-bee-10 { animation-delay: 0.27s; --tx: 246px; --ty: -48px;  --rot: -26deg; }
-  .footer-manchester:hover .mini-bee-11 { animation-delay: 0.30s; --tx: 272px; --ty: -24px;  --rot: 14deg; }
-  .footer-manchester:hover .mini-bee-12 { animation-delay: 0.33s; --tx: 298px; --ty: -42px;  --rot: -10deg; }
+  .footer-manchester:hover .mini-bee-1  { animation-delay: 0.00s; --tx: 40px;  --ty: -16px;  --rot: 18deg; }
+  .footer-manchester:hover .mini-bee-2  { animation-delay: 0.04s; --tx: 70px;  --ty: -42px;  --rot: -12deg; }
+  .footer-manchester:hover .mini-bee-3  { animation-delay: 0.08s; --tx: 105px; --ty: 8px;    --rot: 22deg; }
+  .footer-manchester:hover .mini-bee-4  { animation-delay: 0.12s; --tx: 138px; --ty: -64px;  --rot: -18deg; }
+  .footer-manchester:hover .mini-bee-5  { animation-delay: 0.16s; --tx: 165px; --ty: -20px;  --rot: 12deg; }
+  .footer-manchester:hover .mini-bee-6  { animation-delay: 0.20s; --tx: 210px; --ty: 18px;   --rot: -20deg; }
+  .footer-manchester:hover .mini-bee-7  { animation-delay: 0.24s; --tx: 250px; --ty: -50px;  --rot: 16deg; }
+  .footer-manchester:hover .mini-bee-8  { animation-delay: 0.28s; --tx: 292px; --ty: -6px;   --rot: -10deg; }
+
+  .footer-manchester:hover .mini-bee-9  { animation-delay: 0.02s; --tx: -34px; --ty: -18px;  --rot: -16deg; }
+  .footer-manchester:hover .mini-bee-10 { animation-delay: 0.06s; --tx: -62px; --ty: 10px;   --rot: 20deg; }
+  .footer-manchester:hover .mini-bee-11 { animation-delay: 0.10s; --tx: -95px; --ty: -46px;  --rot: -24deg; }
+  .footer-manchester:hover .mini-bee-12 { animation-delay: 0.14s; --tx: -128px; --ty: 20px;  --rot: 14deg; }
+  .footer-manchester:hover .mini-bee-13 { animation-delay: 0.18s; --tx: -166px; --ty: -8px;  --rot: -12deg; }
+
+  .footer-manchester:hover .mini-bee-14 { animation-delay: 0.05s; --tx: 18px;  --ty: -86px;  --rot: 28deg; }
+  .footer-manchester:hover .mini-bee-15 { animation-delay: 0.11s; --tx: -12px; --ty: -110px; --rot: -22deg; }
+  .footer-manchester:hover .mini-bee-16 { animation-delay: 0.17s; --tx: 82px;  --ty: -118px; --rot: 18deg; }
+  .footer-manchester:hover .mini-bee-17 { animation-delay: 0.23s; --tx: -74px; --ty: -92px;  --rot: -16deg; }
+  .footer-manchester:hover .mini-bee-18 { animation-delay: 0.29s; --tx: 120px; --ty: -132px; --rot: 24deg; }
 }
 
-@keyframes bee-burst {
+@keyframes bee-swarm-fly {
   0% {
     opacity: 0;
-    transform: translate(0, 0) scale(0.55) rotate(0deg);
+    transform: translate(0, 0) scale(0.5) rotate(0deg);
   }
-  12% {
+  8% {
     opacity: 1;
   }
-  70% {
+  65% {
     opacity: 1;
-    transform: translate(var(--tx), var(--ty)) scale(0.9) rotate(var(--rot));
+    transform: translate(var(--tx), var(--ty)) scale(0.95) rotate(var(--rot));
   }
   100% {
     opacity: 0;
-    transform: translate(calc(var(--tx) + 26px), calc(var(--ty) - 6px)) scale(0.7) rotate(var(--rot));
+    transform: translate(calc(var(--tx) * 1.18), calc(var(--ty) * 1.18)) scale(0.8) rotate(calc(var(--rot) * 1.25));
   }
 }
 
