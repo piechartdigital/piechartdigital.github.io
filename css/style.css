@@ -3393,3 +3393,35 @@ h3 {
   pointer-events: none;
   z-index: 1;
 }
+@media (max-width: 900px) {
+  .service-detail {
+    grid-template-columns: 1fr !important;
+    gap: 24px;
+  }
+
+  .service-detail__side {
+    order: 2;
+  }
+
+  .service-detail__main {
+    order: 1;
+  }
+}
+@media (max-width: 768px) {
+  .neuro-hero {
+    padding: 28px 0 32px;
+  }
+
+  .neuro-hero__inner {
+    max-width: 100%;
+  }
+
+  .neuro-hero-pie {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    transform: none;
+    width: 120px;
+    opacity: 0.95;
+  }
+}
