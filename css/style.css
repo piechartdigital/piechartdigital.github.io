@@ -3194,3 +3194,102 @@ h3 {
     margin-top: 20px;
   }
 }
+.footer-manchester {
+  margin-top: 18px;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 6px;
+  color: var(--yellow);
+}
+
+.footer-manchester .manchester-text {
+  color: var(--yellow);
+  font-weight: 400;
+  font-size: 0.95rem;
+}
+
+.manchester-bee-wrap {
+  position: relative;
+  display: inline-block;
+  width: 34px;
+  height: 34px;
+}
+
+.manchester-bee {
+  position: relative;
+  z-index: 2;
+  width: 34px;
+  height: auto;
+  transition: transform 160ms ease;
+}
+
+.bee-swarm {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.mini-bee {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 18px;
+  height: 18px;
+  margin-left: -9px;
+  margin-top: -9px;
+  background-image: url("../image/manchester-bee.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0;
+  transform: translate(0, 0) scale(0.55) rotate(0deg);
+}
+
+.footer-manchester:hover .manchester-bee {
+  transform: translateY(-2px);
+}
+
+@media (hover: hover) and (pointer: fine) and (min-width: 901px) {
+  .footer-manchester:hover .mini-bee {
+    animation: bee-burst 1.6s ease-out forwards;
+  }
+
+  .footer-manchester:hover .mini-bee-1  { animation-delay: 0.00s; --tx: 30px;  --ty: -18px;  --rot: 10deg; }
+  .footer-manchester:hover .mini-bee-2  { animation-delay: 0.03s; --tx: 52px;  --ty: -34px;  --rot: -14deg; }
+  .footer-manchester:hover .mini-bee-3  { animation-delay: 0.06s; --tx: 76px;  --ty: -10px;  --rot: 18deg; }
+  .footer-manchester:hover .mini-bee-4  { animation-delay: 0.09s; --tx: 98px;  --ty: -46px;  --rot: -22deg; }
+  .footer-manchester:hover .mini-bee-5  { animation-delay: 0.12s; --tx: 126px; --ty: -20px;  --rot: 16deg; }
+  .footer-manchester:hover .mini-bee-6  { animation-delay: 0.15s; --tx: 148px; --ty: -54px;  --rot: -12deg; }
+  .footer-manchester:hover .mini-bee-7  { animation-delay: 0.18s; --tx: 172px; --ty: -14px;  --rot: 24deg; }
+  .footer-manchester:hover .mini-bee-8  { animation-delay: 0.21s; --tx: 196px; --ty: -38px;  --rot: -18deg; }
+  .footer-manchester:hover .mini-bee-9  { animation-delay: 0.24s; --tx: 222px; --ty: -8px;   --rot: 12deg; }
+  .footer-manchester:hover .mini-bee-10 { animation-delay: 0.27s; --tx: 246px; --ty: -48px;  --rot: -26deg; }
+  .footer-manchester:hover .mini-bee-11 { animation-delay: 0.30s; --tx: 272px; --ty: -24px;  --rot: 14deg; }
+  .footer-manchester:hover .mini-bee-12 { animation-delay: 0.33s; --tx: 298px; --ty: -42px;  --rot: -10deg; }
+}
+
+@keyframes bee-burst {
+  0% {
+    opacity: 0;
+    transform: translate(0, 0) scale(0.55) rotate(0deg);
+  }
+  12% {
+    opacity: 1;
+  }
+  70% {
+    opacity: 1;
+    transform: translate(var(--tx), var(--ty)) scale(0.9) rotate(var(--rot));
+  }
+  100% {
+    opacity: 0;
+    transform: translate(calc(var(--tx) + 26px), calc(var(--ty) - 6px)) scale(0.7) rotate(var(--rot));
+  }
+}
+
+@media (max-width: 900px) {
+  .bee-swarm {
+    display: none;
+  }
+}
