@@ -3301,3 +3301,35 @@ h3 {
     display: none;
   }
 }
+/* ------------------------------
+   Section heading animation swap
+   (heading static, text reveals)
+------------------------------ */
+
+/* Force headings to always be visible */
+.section-head h2.reveal-on-scroll,
+.what-we-do-head h2.reveal-on-scroll,
+.why-head h2.reveal-on-scroll,
+.blog-preview-head h2.reveal-on-scroll {
+  opacity: 1;
+  transform: none;
+}
+
+/* Apply reveal animation to the paragraph instead */
+.section-head p,
+.what-we-do-head p,
+.why-head p,
+.blog-preview-head p {
+  opacity: 0;
+  transform: translateY(28px);
+  transition: opacity 700ms ease, transform 800ms cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+/* When visible (JS adds this) */
+.section-head p.is-visible,
+.what-we-do-head p.is-visible,
+.why-head p.is-visible,
+.blog-preview-head p.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
