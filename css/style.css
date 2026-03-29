@@ -385,7 +385,7 @@ h3 {
 
 .hero {
   background: var(--yellow);
-  padding: clamp(54px, 6.5vw, 88px) 0;
+  padding: clamp(28px, 3.25vw, 44px) 0;
   position: relative;
   overflow: hidden;
 }
