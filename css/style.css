@@ -3480,3 +3480,58 @@ h3 {
     align-self: flex-start;
   }
 }
+@media (max-width: 767px) {
+  .portfolio-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .portfolio-card {
+    min-height: auto;
+    display: flex;
+    flex-direction: column;
+    background: transparent;
+  }
+
+  .portfolio-card__link {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+  }
+
+  .portfolio-card__image {
+    width: 100%;
+    min-height: 260px;
+    height: 260px;
+    object-fit: cover;
+    display: block;
+  }
+
+  .portfolio-card__overlay {
+    position: static;
+    transform: none;
+    min-height: auto;
+    background: rgba(33, 33, 37, 0.96);
+  }
+
+  .portfolio-card__content {
+    min-height: auto;
+    padding: 22px 20px 20px;
+  }
+
+  .portfolio-card__content h2 {
+    font-size: 2rem;
+    line-height: 1.02;
+    margin-bottom: 10px;
+  }
+
+  .portfolio-card__content p {
+    margin-bottom: 18px;
+    font-size: 1rem;
+    line-height: 1.4;
+  }
+
+  .portfolio-card__cta {
+    margin-top: 0;
+    align-self: flex-start;
+  }
+}
