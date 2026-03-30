@@ -3424,3 +3424,49 @@ h3 {
     opacity: 0.95;
   }
 }
+/* ------------------------------
+   Privacy Policy
+------------------------------ */
+
+.privacy-policy {
+  max-width: 780px;
+  margin: 0 auto;
+}
+
+.privacy-policy h2 {
+  margin-bottom: 1rem;
+}
+
+.privacy-policy h3 {
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
+  font-size: 1.1rem;
+}
+
+.privacy-policy p {
+  font-size: 0.95rem;
+  line-height: 1.7;
+  margin-bottom: 1rem;
+  color: #2a2a2a;
+}
+
+.privacy-policy ul {
+  margin: 0 0 1.25rem 1.2rem;
+  padding: 0;
+}
+
+.privacy-policy li {
+  margin-bottom: 0.5rem;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: #2a2a2a;
+}
+
+.privacy-policy a {
+  text-decoration: underline;
+}
+
+/* optional: slightly softer section spacing */
+.privacy-policy h3 + p {
+  margin-top: 0.25rem;
+}
