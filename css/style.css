@@ -4,7 +4,7 @@
 */
 
 /* ------------------------------
-   CSS Reset / Base
+   CSS Reset / Base 
 ------------------------------ */ 
 *,
 *::before,
@@ -3598,4 +3598,7 @@ h3 {
     min-height: 44px;
     box-shadow: 0 6px 0 rgba(0,0,0,0.18);
   }
+}
+.portfolio-card__image {
+  height: 180px;
 }
