@@ -3312,7 +3312,7 @@ h3 {
 .neuro-hero-pie {
   position: absolute;
   top: 50%;
-  right: clamp(40px, 6vw, 120px); /* ← THIS is your horizontal control */
+  right: clamp(20px, 6vw, 120px); /* ← THIS is your horizontal control */
   transform: translateY(-50%);
   width: clamp(260px, 30vw, 380px);
   height: auto;
