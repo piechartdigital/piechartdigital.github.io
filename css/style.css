@@ -3287,20 +3287,10 @@ h3 {
   opacity: 1;
   transform: translateY(0);
 }
-.neuro-hero {
-  position: relative;
-  background: #ffd400; /* your yellow */
-  overflow: hidden;
-}
+/* ===============================
+   Neuro Hero
+=============================== */
 
-.neuro-hero-pie {
-  position: absolute;
-  right: 10%;
-  bottom: -20px;
-  width: clamp(220px, 28vw, 360px);
-  height: auto;
-  pointer-events: none;
-}
 .neuro-hero {
   background: var(--yellow);
   padding: clamp(32px, 4vw, 56px) 0;
@@ -3317,36 +3307,23 @@ h3 {
   color: var(--grey-600);
 }
 
+/* ===== Hero Image (Desktop) ===== */
+
 .neuro-hero-pie {
   position: absolute;
-  right: clamp(50px, 125vw, 500px);
   top: 50%;
+  right: clamp(40px, 6vw, 120px); /* ← THIS is your horizontal control */
   transform: translateY(-50%);
-  width: clamp(180px, 20vw, 300px);
+  width: clamp(260px, 30vw, 380px);
   height: auto;
   pointer-events: none;
   z-index: 1;
 }
 
-@media (max-width: 900px) {
-  .neuro-hero-pie {
-    position: static;
-    transform: none;
-    display: block;
-    margin: 20px auto 0;
-    width: clamp(140px, 48vw, 220px);
-  }
-}
-.neuro-hero-pie {
-  position: absolute;
-  right: 20%; /* was ~6% — brings it closer to the text */
-  top: 50%;
-  transform: translateY(-50%);
-  width: clamp(260px, 32vw, 420px); /* bigger */
-  height: auto;
-  pointer-events: none;
-  z-index: 1;
-}
+/* ===============================
+   Tablet / Small Desktop
+=============================== */
+
 @media (max-width: 900px) {
   .service-detail {
     grid-template-columns: 1fr !important;
@@ -3361,6 +3338,11 @@ h3 {
     order: 1;
   }
 }
+
+/* ===============================
+   Mobile
+=============================== */
+
 @media (max-width: 768px) {
   .neuro-hero {
     padding: 28px 0 32px;
@@ -3375,7 +3357,7 @@ h3 {
     top: 12px;
     right: 12px;
     transform: none;
-    width: 120px;
+    width: 110px;
     opacity: 0.95;
   }
 }
