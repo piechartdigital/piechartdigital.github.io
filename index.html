@@ -25,6 +25,7 @@
 <header class="site-header" data-header>
   <div class="container header-inner">
 
+    <!-- LEFT: Brand -->
     <a class="brand" href="index.html" aria-label="Piechart Digital home">
       <img
         class="brand-logo"
@@ -39,42 +40,40 @@
       </span>
     </a>
 
-    <!-- NEW: right side wrapper -->
-    <div class="header-right">
+    <!-- MIDDLE: Nav -->
+    <nav class="site-nav" data-nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="team.html">Team</a></li>
+        <li><a href="blog.html">Blog</a></li>
 
-      <!-- Desktop phone -->
-      <a href="tel:01611231234" class="header-phone">
-        0161 123 1234
-      </a>
+        <!-- Mobile only -->
+        <li class="mobile-phone">
+          <a href="tel:01611231234">0161 123 1234</a>
+        </li>
 
-      <button
-        class="nav-toggle"
-        type="button"
-        aria-label="Open menu"
-        aria-expanded="false"
-        data-nav-toggle
-      >
-        <span class="nav-toggle-lines" aria-hidden="true"></span>
-      </button>
+        <li><a class="nav-cta" href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
 
-      <nav class="site-nav" data-nav>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="services.html">Services</a></li>
-          <li><a href="portfolio.html">Portfolio</a></li>
-          <li><a href="team.html">Team</a></li>
-          <li><a href="blog.html">Blog</a></li>
+    <!-- RIGHT: Phone -->
+    <a href="tel:01611231234" class="header-phone">
+      0161 123 1234
+    </a>
 
-          <!-- Mobile phone -->
-          <li class="mobile-phone">
-            <a href="tel:01611231234">0161 123 1234</a>
-          </li>
+    <!-- Burger -->
+    <button
+      class="nav-toggle"
+      type="button"
+      aria-label="Open menu"
+      aria-expanded="false"
+      data-nav-toggle
+    >
+      <span class="nav-toggle-lines" aria-hidden="true"></span>
+    </button>
 
-          <li><a class="nav-cta" href="contact.html">Contact</a></li>
-        </ul>
-      </nav>
-
-    </div>
   </div>
 </header>
 
