@@ -3644,6 +3644,8 @@ right: clamp(200px, 125vw, 500px);
     gap: 12px;
   }
 }
+
 .header-phone {
   margin-left: 28px;
+  white-space: nowrap;
 }
