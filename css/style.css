@@ -3648,6 +3648,6 @@ right: clamp(200px, 125vw, 500px);
 .header-phone {
   margin-left: 28px;
   white-space: nowrap;
-  flex-shrink: 0;
+  flex: 0 0 auto;
   display: inline-block;
 }
