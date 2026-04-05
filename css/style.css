@@ -3914,7 +3914,7 @@ right: clamp(200px, 125vw, 500px);
   .why-pie-server {
     width: 420px !important;
     left: -30px !important;
-    bottom: -400px !important;
+    bottom: -40px !important;
     transform: rotate(-4deg) !important;
     opacity: 0.98;
   }
