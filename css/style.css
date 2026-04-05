@@ -1070,9 +1070,9 @@ h3 {
   }
 
   .why-pie-server {
-    width: 140px;
-    left: 10px;
-    bottom: -58px;
+    width: 180px;
+    left: 8px;
+    bottom: -72px;
     transform: rotate(-6deg);
     opacity: 0.95;
   }
@@ -1084,7 +1084,7 @@ h3 {
   }
 
   .why-wrap {
-    padding-bottom: 86px;
+    padding-bottom: 118px;
   }
 
   .why-grid {
@@ -1109,14 +1109,13 @@ h3 {
     transform: translateY(0.1em);
   }
 
-@media (max-width: 560px) {
   .why-pie-server {
-    width: 170px;            /* slightly bigger while we're here */
-    left: 12px;
-    bottom: -120px;           /* pushes it further down */
+    width: 320px;
+    left: -8px;
+    bottom: -98px;
     transform: rotate(-4deg);
+    opacity: 0.98;
   }
-}
 }
 
 /* ------------------------------
