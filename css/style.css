@@ -3880,3 +3880,42 @@ right: clamp(200px, 125vw, 500px);
     flex: 0 0 auto;
   }
 }
+@media (max-width: 560px) {
+  .section-why {
+    padding: 28px 0 10px;
+  }
+
+  .why-wrap {
+    padding-bottom: 118px;
+  }
+
+  .why-grid {
+    grid-template-columns: 1fr;
+    gap: 12px;
+    max-width: 420px;
+    margin-bottom: 18px;
+  }
+
+  .why-grid li {
+    font-size: 0.98rem;
+    line-height: 1.4;
+    grid-template-columns: 20px 1fr;
+    column-gap: 10px;
+  }
+
+  .why-grid li::before {
+    width: 20px;
+    height: 20px;
+    font-size: 12px;
+    border-radius: 7px;
+    transform: translateY(0.1em);
+  }
+
+  .why-pie-server {
+    width: 380px !important;
+    left: -20px !important;
+    bottom: -60px !important;
+    transform: rotate(-4deg) !important;
+    opacity: 0.98;
+  }
+}
