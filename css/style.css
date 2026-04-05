@@ -2924,13 +2924,7 @@ h3 {
 .section-blog-preview {
   padding-top: 24px;
 }
-@media (max-width: 560px) {
-  .why-pie-server {
-    width: 250px;            /* slightly bigger while we're here */
-    left: 12px;
-    bottom: -80px;           /* pushes it further down */
-    transform: rotate(-4deg);
-  }
+
 }
 .blog-template-links {
   display: flex;
@@ -3884,19 +3878,5 @@ right: clamp(200px, 125vw, 500px);
 
   .section-brands .logo-item {
     flex: 0 0 auto;
-  }
-}
-@media (max-width: 560px) {
-  .why-pie-server {
-    width: 360px;
-    left: 0;
-    bottom: -100px;
-    transform: rotate(-4deg);
-  }
-}
-@media (max-width: 560px) {
-  .why-pie-server {
-    width: 360px !important;
-    outline: 3px solid red;
   }
 }
