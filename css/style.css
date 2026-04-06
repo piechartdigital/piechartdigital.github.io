@@ -3924,3 +3924,6 @@ right: clamp(200px, 125vw, 500px);
   max-width: 100%;
   margin: 0 auto 16px;
 }
+.blog-callout__inner p {
+  font-size: 1.3rem;
+}
