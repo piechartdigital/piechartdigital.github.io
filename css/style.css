@@ -3919,3 +3919,11 @@ right: clamp(200px, 125vw, 500px);
     opacity: 0.98;
   }
 }
+.case-study-media-card video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: var(--radius-card);
+  border: var(--border);
+  box-shadow: 0 12px 0 rgba(0, 0, 0, 0.06);
+}
