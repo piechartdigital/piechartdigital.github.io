@@ -3927,3 +3927,8 @@ right: clamp(200px, 125vw, 500px);
 .blog-callout__inner p {
   font-size: 1.3rem;
 }
+.stressed-pie {
+  width: clamp(200px, 28vw, 340px);
+  max-width: 100%;
+  margin: 0 auto 16px;
+}
