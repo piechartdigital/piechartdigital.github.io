@@ -3936,7 +3936,7 @@ right: clamp(200px, 125vw, 500px);
 }
 .blog-pie-writer {
   position: absolute;
-  right: clamp(250px, 125vw, 500px);
+  right: 80px;
   top: 50%;
   transform: translateY(-50%);
   width: clamp(180px, 20vw, 300px);
