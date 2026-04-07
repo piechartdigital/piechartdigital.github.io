@@ -1112,7 +1112,7 @@ h3 {
   .why-pie-server {
     width: 320px;
     left: -8px;
-    bottom: -40px;
+    bottom: -10px;
     transform: rotate(-4deg);
     opacity: 0.98;
   }
@@ -2840,7 +2840,7 @@ h3 {
   .why-pie-server {
   width: 380px;
   left: -20px;
-  bottom: -20px;
+  bottom: -10px;
   transform: rotate(-4deg);
 }
 }
@@ -3907,7 +3907,7 @@ right: clamp(200px, 125vw, 500px);
   .why-pie-server {
     width: 420px !important;
     left: -30px !important;
-    bottom: -40px !important;
+    bottom: -10px !important;
     transform: rotate(-4deg) !important;
     opacity: 0.98;
   }
