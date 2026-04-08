@@ -4029,6 +4029,7 @@ right: clamp(200px, 125vw, 500px);
 
 .testimonial-viewport {
   overflow: hidden;
+  padding-bottom: 14px;
 }
 
 .testimonial-track {
