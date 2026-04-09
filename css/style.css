@@ -377,7 +377,31 @@ h3 {
     display: block;
   }
 }
+.nav-phone-item {
+  display: none;
+}
 
+.nav-phone-link {
+  font-weight: 700;
+}
+@media (max-width: 860px) {
+  .header-phone {
+    display: none;
+  }
+
+  .nav-phone-item {
+    display: block;
+  }
+
+  .nav-phone-link {
+    display: inline-flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 12px 14px;
+    border-radius: var(--radius-pill);
+    font-weight: 700;
+  }
+}
 /* ------------------------------
    Hero
 ------------------------------ */
