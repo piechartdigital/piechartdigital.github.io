@@ -194,17 +194,41 @@
     </section>
   </main>
 
-  <footer class="site-footer">
+<footer class="site-footer">
     <div class="container footer-inner">
       <div class="footer-left">
         <div class="footer-brand">
-          <img src="image/logo-piechart.png" alt="Piechart Digital logo" class="footer-logo" />
-          <strong>Piechart Digital</strong>
+          <img
+            class="footer-logo"
+            src="image/logo-piechart.png"
+            alt="Piechart Digital"
+            width="32"
+            height="32"
+            loading="lazy"
+            decoding="async"
+          />
+          <span class="brand-name">Piechart Digital</span>
         </div>
+
         <p class="footer-note">Bold marketing, clean execution.</p>
+
+        <div class="footer-map-card">
+  <div class="footer-map-head">
+    <h3>Where we’re based</h3>
+    <p>SK4 - Stockport, Greater Manchester</p>
+  </div>
+
+  <iframe
+    src="https://www.google.com/maps?q=Stockport,+Greater+Manchester&z=11&output=embed"
+    loading="lazy"
+    referrerpolicy="no-referrer-when-downgrade"
+    allowfullscreen=""
+    title="Map showing Stockport, Greater Manchester"
+  ></iframe>
+</div>
       </div>
 
-      <nav class="footer-links" aria-label="Footer navigation">
+      <div class="footer-links">
         <a href="index.html">Home</a>
         <a href="services.html">Services</a>
         <a href="portfolio.html">Portfolio</a>
@@ -212,45 +236,44 @@
         <a href="blog.html">Blog</a>
         <a href="contact.html">Contact</a>
         <a href="privacy-policy.html">Privacy Policy</a>
-      </nav>
+      </div>
 
       <div class="footer-right">
         <a class="footer-email" href="mailto:hello@piechartdigital.co.uk">
           hello@piechartdigital.co.uk
         </a>
 
-        <div class="socials">
-          <a class="social" href="#" aria-label="LinkedIn">
+        <div class="socials" aria-label="Social links">
+          <a class="social" href="https://www.linkedin.com/company/piechart-digital" aria-label="LinkedIn">
             <svg viewBox="0 0 24 24" aria-hidden="true">
-              <path d="M6.94 8.5H3.56V20h3.38V8.5ZM5.25 3A2.01 2.01 0 0 0 3.25 5c0 1.1.9 2 2 2s2-.9 2-2a2.01 2.01 0 0 0-2-2ZM20.75 12.65c0-3.03-1.62-4.44-3.78-4.44-1.74 0-2.52.96-2.96 1.63V8.5h-3.37c.04.89 0 11.5 0 11.5h3.37v-6.42c0-.34.02-.68.13-.92.27-.68.88-1.38 1.9-1.38 1.34 0 1.88 1.02 1.88 2.52V20h3.37v-7.35Z"/>
+              <path d="M20.45 20.45h-3.56v-5.57c0-1.33-.03-3.03-1.85-3.03-1.85 0-2.13 1.44-2.13 2.93v5.67H9.35V9h3.42v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.26 2.37 4.26 5.45v6.29ZM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12ZM7.12 20.45H3.56V9h3.56v11.45Z" />
             </svg>
           </a>
 
-          <a class="social" href="#" aria-label="Instagram">
+          <a class="social" href="https://www.instagram.com/piechartdigital" aria-label="Instagram">
             <svg viewBox="0 0 24 24" aria-hidden="true">
-              <path d="M7.75 3h8.5A4.75 4.75 0 0 1 21 7.75v8.5A4.75 4.75 0 0 1 16.25 21h-8.5A4.75 4.75 0 0 1 3 16.25v-8.5A4.75 4.75 0 0 1 7.75 3Zm0 1.8A2.95 2.95 0 0 0 4.8 7.75v8.5a2.95 2.95 0 0 0 2.95 2.95h8.5a2.95 2.95 0 0 0 2.95-2.95v-8.5a2.95 2.95 0 0 0-2.95-2.95h-8.5Zm8.95 1.35a1.1 1.1 0 1 1 0 2.2 1.1 1.1 0 0 1 0-2.2ZM12 7a5 5 0 1 1 0 10 5 5 0 0 1 0-10Zm0 1.8A3.2 3.2 0 1 0 12 15.2 3.2 3.2 0 0 0 12 8.8Z"/>
+              <path d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5Zm10 2H7a3 3 0 0 0-3 3v10a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3V7a3 3 0 0 0-3-3Zm-5 4.2A3.8 3.8 0 1 1 8.2 12 3.8 3.8 0 0 1 12 8.2Zm0 2A1.8 1.8 0 1 0 13.8 12 1.8 1.8 0 0 0 12 10.2ZM18 7.3a1 1 0 1 1-1-1 1 1 0 0 1 1 1Z" />
             </svg>
           </a>
 
-          <a class="social" href="#" aria-label="Facebook">
+          <a class="social" href="https://www.facebook.com/profile.php?id=61588368569198" aria-label="Facebook">
             <svg viewBox="0 0 24 24" aria-hidden="true">
-              <path d="M13.5 21v-7.4h2.48l.37-2.88H13.5V8.88c0-.83.23-1.4 1.43-1.4h1.52V4.9c-.26-.03-1.15-.1-2.18-.1-2.16 0-3.64 1.32-3.64 3.75v2.17H8.2v2.88h2.43V21h2.87Z"/>
+              <path d="M13.5 22v-8h2.7l.4-3h-3.1V9.1c0-.87.24-1.46 1.48-1.46H16.7V5c-.3-.04-1.35-.13-2.58-.13-2.55 0-4.29 1.56-4.29 4.43V11H7v3h2.83v8h3.67Z" />
             </svg>
           </a>
         </div>
 
-        <p class="footer-small">© 2026 Piechart Digital</p>
-
-        <div class="footer-nd-card">
-          <span class="footer-nd-tick">✓</span>
-          <p class="footer-nd-title">Neurodivergent friendly</p>
-          <p class="footer-nd-text">
-            Clear communication & flexible ways of working. Find out more
-            <a href="#">here</a>.
-          </p>
+         <div class="footer-nd-card">
+          <div class="footer-nd-tick">✓</div>
+          <div class="footer-nd-content">
+            <p class="footer-nd-title">Neurodivergent friendly</p>
+            <p class="footer-nd-text">
+              Clear communication &amp; flexible ways of working. Find out more <a href="neurodiversity.html"><u>here.</u></a>
+            </p>
+          </div>
         </div>
 
-          <div class="footer-manchester">
+    <div class="footer-manchester">
   <span class="manchester-text">Made in Manchester</span>
 
   <div class="manchester-bee-wrap" aria-hidden="true">
@@ -281,8 +304,10 @@
   <span class="mini-bee mini-bee-18"></span>
 </span>
   </div>
+             <p class="footer-small">© <span data-year></span> Piechart Digital</p>
 </div>
   </footer>
+
 
   <script>
     const navToggle = document.querySelector(".nav-toggle");
