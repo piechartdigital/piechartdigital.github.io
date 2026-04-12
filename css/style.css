@@ -4299,3 +4299,35 @@ right: clamp(200px, 125vw, 500px);
     display: block;
   }
 }
+.footer-map-card {
+  margin-top: 18px;
+  background: #ffffff;
+  border-radius: var(--radius-card);
+  border: var(--border);
+  box-shadow: 0 12px 0 rgba(0, 0, 0, 0.06);
+  overflow: hidden;
+  max-width: 320px;
+}
+
+.footer-map-head {
+  padding: 16px 16px 10px;
+}
+
+.footer-map-head h3 {
+  margin: 0 0 6px;
+  font-size: 1.2rem;
+  color: #0b0b0b;
+}
+
+.footer-map-head p {
+  margin: 0;
+  font-size: 0.92rem;
+  color: var(--grey-600);
+}
+
+.footer-map-card iframe {
+  display: block;
+  width: 100%;
+  height: 240px;
+  border: 0;
+}
