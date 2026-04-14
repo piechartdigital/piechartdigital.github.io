@@ -4355,3 +4355,9 @@ right: clamp(200px, 125vw, 500px);
     padding-right: 20px;
   }
 }
+/* Add white space between yellow section and hero image (desktop only) */
+@media (min-width: 768px) {
+  .case-hero-image {
+    margin-top: 60px;
+  }
+}
