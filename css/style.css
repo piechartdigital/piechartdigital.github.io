@@ -4361,3 +4361,98 @@ right: clamp(200px, 125vw, 500px);
     margin-top: 60px;
   }
 }
+/* ------------------------------
+   Cookie Banner
+------------------------------ */
+
+.cookie-banner {
+  position: fixed;
+  left: 20px;
+  right: 20px;
+  bottom: 20px;
+  z-index: 2000;
+  display: flex;
+  justify-content: center;
+  pointer-events: none;
+}
+
+.cookie-banner[hidden] {
+  display: none;
+}
+
+.cookie-banner__inner {
+  width: min(860px, 100%);
+  background: #ffffff;
+  border: var(--border);
+  border-radius: 24px;
+  box-shadow: 0 12px 0 rgba(0, 0, 0, 0.12);
+  padding: 22px 22px 20px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 18px;
+  pointer-events: auto;
+}
+
+.cookie-banner__copy h3 {
+  margin: 0 0 8px;
+  font-size: 1.25rem;
+}
+
+.cookie-banner__copy p {
+  margin: 0;
+  color: rgba(0, 0, 0, 0.82);
+  font-size: 0.98rem;
+  line-height: 1.5;
+  max-width: 60ch;
+}
+
+.cookie-banner__copy a {
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 3px;
+}
+
+.cookie-banner__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  flex: 0 0 auto;
+}
+
+.cookie-btn {
+  min-width: 150px;
+}
+
+@media (max-width: 700px) {
+  .cookie-banner {
+    left: 12px;
+    right: 12px;
+    bottom: 12px;
+  }
+
+  .cookie-banner__inner {
+    padding: 18px 18px 16px;
+    border-radius: 20px;
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .cookie-banner__copy h3 {
+    font-size: 1.1rem;
+  }
+
+  .cookie-banner__copy p {
+    font-size: 0.94rem;
+  }
+
+  .cookie-banner__actions {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .cookie-btn {
+    width: 100%;
+    min-width: 0;
+  }
+}
