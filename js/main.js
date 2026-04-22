@@ -327,3 +327,39 @@ testimonialSliders.forEach((slider) => {
   updateSlider();
   startAutoPlay();
 });
+// Cookie consent banner
+(() => {
+  const banner = document.getElementById("cookieBanner");
+  const acceptBtn = document.getElementById("cookieAccept");
+  const rejectBtn = document.getElementById("cookieReject");
+
+  if (!banner || !acceptBtn || !rejectBtn) return;
+
+  const COOKIE_KEY = "piechart_cookie_consent";
+
+  function setConsent(value) {
+    localStorage.setItem(COOKIE_KEY, value);
+    banner.hidden = true;
+  }
+
+  function getConsent() {
+    return localStorage.getItem(COOKIE_KEY);
+  }
+
+  const existingConsent = getConsent();
+
+  if (!existingConsent) {
+    banner.hidden = false;
+  }
+
+  acceptBtn.addEventListener("click", () => {
+    setConsent("accepted");
+
+    // Future use:
+    // loadMetaPixel();
+  });
+
+  rejectBtn.addEventListener("click", () => {
+    setConsent("rejected");
+  });
+})();
