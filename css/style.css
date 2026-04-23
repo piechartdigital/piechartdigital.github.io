@@ -4469,3 +4469,52 @@ right: clamp(200px, 125vw, 500px);
     min-width: 0;
   }
 }
+/* ------------------------------
+   Brand scroll arrows (mobile hint)
+------------------------------ */
+
+.brand-scroll-wrapper {
+  position: relative;
+}
+
+.brand-scroll-wrapper::before,
+.brand-scroll-wrapper::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  width: 36px;
+  height: 36px;
+  border-radius: 999px;
+  background: #ffffff;
+  border: 2px solid rgba(0, 0, 0, 0.12);
+  box-shadow: 0 6px 0 rgba(0, 0, 0, 0.08);
+  transform: translateY(-50%);
+  z-index: 2;
+  display: none;
+}
+
+/* Left arrow */
+.brand-scroll-wrapper::before {
+  left: -12px;
+  background-image: url("data:image/svg+xml;utf8,<svg viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><polyline points='15 18 9 12 15 6'/></svg>");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 18px;
+}
+
+/* Right arrow */
+.brand-scroll-wrapper::after {
+  right: -12px;
+  background-image: url("data:image/svg+xml;utf8,<svg viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><polyline points='9 18 15 12 9 6'/></svg>");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 18px;
+}
+
+/* Show only on mobile */
+@media (max-width: 768px) {
+  .brand-scroll-wrapper::before,
+  .brand-scroll-wrapper::after {
+    display: block;
+  }
+}
