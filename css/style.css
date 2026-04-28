@@ -4628,3 +4628,83 @@ right: clamp(200px, 125vw, 500px);
     flex-direction: column;
   }
 }
+/* ------------------------------
+   WHO ARE WE SECTION
+------------------------------ */
+
+.section-who {
+  background: #ffffff;
+  padding: 56px 0;
+}
+
+.who-panel {
+  display: grid;
+  grid-template-columns: minmax(0, 1.25fr) minmax(280px, 0.75fr);
+  gap: 34px;
+  align-items: center;
+
+  background: #fff8cf;
+  border: 2px solid rgba(0, 0, 0, 0.08);
+  border-radius: 34px;
+  padding: 38px;
+  box-shadow: 0 14px 0 rgba(0, 0, 0, 0.08);
+}
+
+.who-copy {
+  max-width: 680px;
+}
+
+.who-copy h2 {
+  margin: 0 0 16px;
+  font-size: clamp(2rem, 4vw, 3.4rem);
+  line-height: 1;
+  letter-spacing: -0.04em;
+}
+
+.who-copy p {
+  font-size: 1.05rem;
+  line-height: 1.65;
+  color: #242424;
+}
+
+.who-copy .btn {
+  margin-top: 14px;
+}
+
+.who-image-wrap {
+  position: relative;
+  justify-self: end;
+  width: 100%;
+  max-width: 340px;
+}
+
+.who-image {
+  display: block;
+  width: 100%;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+  border-radius: 28px;
+  border: 3px solid #ffffff;
+  box-shadow: 0 12px 0 rgba(0, 0, 0, 0.12);
+}
+
+@media (max-width: 800px) {
+  .section-who {
+    padding: 40px 0;
+  }
+
+  .who-panel {
+    grid-template-columns: 1fr;
+    padding: 24px;
+    border-radius: 26px;
+  }
+
+  .who-image-wrap {
+    justify-self: stretch;
+    max-width: none;
+  }
+
+  .who-image {
+    max-height: 420px;
+  }
+}
