@@ -4770,3 +4770,10 @@ right: clamp(200px, 125vw, 500px);
     order: 4;
   }
 }
+.section-who {
+  padding-bottom: 40px; /* reduce this */
+}
+
+.section-brands {
+  padding-top: 40px; /* reduce this */
+}
