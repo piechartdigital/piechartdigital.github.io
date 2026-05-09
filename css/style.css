@@ -4915,3 +4915,41 @@ right: clamp(200px, 125vw, 500px);
     height: 22px;
   }
 }
+/* ------------------------------
+   Mobile hero spacing tidy-up
+------------------------------ */
+
+@media (max-width: 767px) {
+  .hero {
+    padding-top: 28px;
+    padding-bottom: 32px;
+  }
+
+  .hero-grid {
+    gap: 0;
+  }
+
+  .hero-copy {
+    gap: 0;
+  }
+
+  .kicker {
+    margin-bottom: 28px;
+  }
+
+  .hero-headline {
+    margin-bottom: 14px;
+  }
+
+  .hero-sub {
+    margin: 0 0 18px;
+  }
+
+  .hero-quote-cta {
+    margin: 0 0 22px;
+  }
+
+  .hero-image {
+    margin-top: 0;
+  }
+}
