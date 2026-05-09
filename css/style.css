@@ -4795,3 +4795,39 @@ right: clamp(200px, 125vw, 500px);
     margin-top: 0;
   }
 }
+@media (max-width: 767px) {
+  .hero-grid {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .hero-copy {
+    display: contents;
+  }
+
+  .kicker {
+    order: 1;
+  }
+
+  .hero-headline {
+    order: 2;
+  }
+
+  .hero-sub {
+    order: 3;
+  }
+
+  .hero-quote-cta {
+    order: 4;
+  }
+
+  .hero-image {
+    order: 5;
+    margin-top: 26px;
+  }
+
+  .hero-choices {
+    order: 6;
+    margin-top: 26px;
+  }
+}
