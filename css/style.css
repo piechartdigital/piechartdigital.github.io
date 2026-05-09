@@ -4968,3 +4968,23 @@ right: clamp(200px, 125vw, 500px);
     height: 42px;
   }
 }
+/* Hero quote CTA hover lift */
+.hero-quote-cta {
+  transition:
+    transform 180ms ease,
+    box-shadow 180ms ease,
+    border-color 180ms ease;
+}
+
+.hero-quote-cta:hover {
+  transform: translateY(-4px);
+  box-shadow:
+    0 14px 0 rgba(0, 0, 0, 0.10),
+    0 22px 38px rgba(0, 0, 0, 0.14);
+  border-color: rgba(0, 0, 0, 0.16);
+}
+@media (max-width: 767px) {
+  .hero-quote-cta:hover {
+    transform: none;
+  }
+}
