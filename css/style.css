@@ -4786,3 +4786,12 @@ right: clamp(200px, 125vw, 500px);
 .case-study-quote .case-study-quote__source {
   color: #0b0b0b;
 }
+@media (max-width: 767px) {
+  .hero-quote-cta {
+    margin: 18px 0 8px;
+  }
+
+  .hero-choices {
+    margin-top: 0;
+  }
+}
