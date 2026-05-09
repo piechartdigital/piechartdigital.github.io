@@ -4953,3 +4953,18 @@ right: clamp(200px, 125vw, 500px);
     margin-top: 0;
   }
 }
+@media (min-width: 768px) {
+  .hero-quote-cta {
+    max-width: 470px;
+    padding: 16px 24px;
+  }
+
+  .hero-quote-cta__text {
+    font-size: 1.4rem;
+  }
+
+  .hero-quote-cta__icon {
+    width: 42px;
+    height: 42px;
+  }
+}
