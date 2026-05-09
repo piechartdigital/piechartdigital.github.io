@@ -1639,7 +1639,7 @@ h3 {
   font-weight: 800;
 }
 
-.services-hero-pie { position: absolute; top: 0; right: clamp(600px, 48vw, 480px); width: clamp(180px, 18vw, 280px); height: auto; pointer-events: none; z-index: 1; }
+.services-hero-pie { position: absolute; top: 0; right: clamp(500px, 48vw, 480px); width: clamp(180px, 18vw, 280px); height: auto; pointer-events: none; z-index: 1; }
 
 .services-cards {
   padding: 10px 0 clamp(44px, 5vw, 72px);
