@@ -3975,7 +3975,7 @@ right: clamp(200px, 125vw, 500px);
   right: 650px;
   top: 50%;
   transform: translateY(-50%);
-  width: clamp(120px, 20vw, 300px);
+  width: clamp(80px, 20vw, 300px);
   height: auto;
   pointer-events: none;
   z-index: 1;
