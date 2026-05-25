@@ -363,3 +363,20 @@ testimonialSliders.forEach((slider) => {
     setConsent("rejected");
   });
 })();
+// Mobile-only collapsible "Typical support" cards
+const collapsibleServiceCards = document.querySelectorAll(".service-side-card--collapsible");
+
+function handleServiceAccordions() {
+  collapsibleServiceCards.forEach((card) => {
+    if (window.innerWidth <= 767) {
+      card.removeAttribute("open");
+    } else {
+      card.setAttribute("open", "");
+    }
+  });
+}
+
+if (collapsibleServiceCards.length) {
+  handleServiceAccordions();
+  window.addEventListener("resize", handleServiceAccordions);
+}
