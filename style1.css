@@ -2,11 +2,13 @@
   --purple: #8f24cc;
   --purple-dark: #1a1024;
   --purple-soft: #f2e4ff;
+  --purple-pale: #f7edff;
   --yellow: #e8f471;
   --white: #ffffff;
   --black: #08080c;
   --dark: #121016;
   --muted: #6d6276;
+  --eyebrow-light: #766184;
   --gold: #e8f471;
   --green: #9fdc5c;
   --radius: 28px;
@@ -64,10 +66,10 @@ a {
 }
 
 .brand-logo {
-  width: 112px;
-  height: 72px;
-  object-fit: cover;
-  border-radius: 50%;
+  width: 150px;
+  height: auto;
+  object-fit: contain;
+  border-radius: 0;
 }
 
 .main-nav {
@@ -164,11 +166,18 @@ a {
 
 .eyebrow {
   margin: 0 0 16px;
-  color: var(--yellow);
+  color: var(--eyebrow-light);
   font-weight: 900;
   text-transform: uppercase;
   letter-spacing: 0.08em;
   font-size: 13px;
+}
+
+.hero .eyebrow,
+.video-box .eyebrow,
+.why-section .eyebrow,
+.contact-section .eyebrow {
+  color: var(--yellow);
 }
 
 h1,
@@ -312,12 +321,12 @@ h3 {
 }
 
 .intro-section {
-  padding-top: 44px;
-  padding-bottom: 18px;
+  padding-top: 42px;
+  padding-bottom: 6px;
 }
 
 .video-section {
-  padding-top: 26px;
+  padding-top: 18px;
 }
 
 .two-col {
@@ -513,8 +522,13 @@ h3 {
 }
 
 @keyframes review-scroll {
-  0% { transform: translateX(0); }
-  100% { transform: translateX(-50%); }
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(-50%);
+  }
 }
 
 /* BLOG */
@@ -630,10 +644,10 @@ form button {
 }
 
 .footer-brand img {
-  width: 110px;
-  height: 110px;
-  object-fit: cover;
-  border-radius: 50%;
+  width: 150px;
+  height: auto;
+  object-fit: contain;
+  border-radius: 0;
   margin-bottom: 10px;
 }
 
@@ -659,7 +673,7 @@ form button {
   .nav {
     grid-template-columns: 1fr;
     justify-items: center;
-    padding: 14px 0;
+    padding: 14px 0 22px;
   }
 
   .main-nav {
@@ -701,6 +715,10 @@ form button {
     flex-direction: column;
     align-items: center;
   }
+
+  .footer-socials {
+    justify-content: center;
+  }
 }
 
 @media (max-width: 640px) {
@@ -713,8 +731,10 @@ form button {
   }
 
   .brand-logo {
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: auto;
+    object-fit: contain;
+    border-radius: 0;
   }
 
   .main-nav {
@@ -733,7 +753,11 @@ form button {
   }
 
   h2 {
-    font-size: 40px;
+    font-size: 38px;
+  }
+
+  .hero {
+    padding: 50px 0 42px;
   }
 
   .hero-card {
@@ -746,7 +770,24 @@ form button {
   }
 
   .section {
-    padding: 52px 0;
+    padding: 38px 0;
+  }
+
+  .intro-section {
+    padding-top: 32px;
+    padding-bottom: 0;
+  }
+
+  .intro-section .two-col {
+    gap: 22px;
+  }
+
+  .video-section {
+    padding-top: 10px;
+  }
+
+  .two-col {
+    gap: 28px;
   }
 
   .video-box,
@@ -768,17 +809,11 @@ form button {
   .feature-grid img {
     height: 300px;
   }
-}
-@media (max-width: 640px) {
-  .brand-logo {
+
+  .footer-brand img {
     width: 150px;
     height: auto;
     object-fit: contain;
     border-radius: 0;
   }
-} .brand-logo {
-  width: 150px;
-  height: auto;
-  object-fit: contain;
-  border-radius: 0;
 }
