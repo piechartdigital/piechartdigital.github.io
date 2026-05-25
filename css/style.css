@@ -5641,3 +5641,14 @@ right: clamp(200px, 125vw, 500px);
   line-height: 1;
   box-shadow: 0 2px 0 rgba(0, 0, 0, 0.12);
 }
+.who-image-caption {
+  display: table;
+  margin: 14px 8px 0 auto;
+  padding: 8px 14px;
+  border-radius: 999px;
+  background: #ffffff;
+  color: #0b0b0b;
+  font-size: 0.9rem;
+  font-weight: 800;
+  box-shadow: 0 6px 0 rgba(0, 0, 0, 0.08);
+}
