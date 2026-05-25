@@ -5652,3 +5652,46 @@ right: clamp(200px, 125vw, 500px);
   font-weight: 800;
   box-shadow: 0 6px 0 rgba(0, 0, 0, 0.08);
 }
+/* ------------------------------
+   Contact page mobile pie placement
+------------------------------ */
+
+.contact-hero-mobile-top {
+  display: contents;
+}
+
+.contact-hero-pie--mobile {
+  display: none;
+}
+
+/* Desktop keeps the larger existing pie */
+.contact-hero-pie--desktop {
+  display: block;
+}
+
+/* Mobile layout */
+@media (max-width: 767px) {
+  .contact-hero-mobile-top {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    margin-bottom: 18px;
+  }
+
+  .contact-hero-mobile-top .section-kicker {
+    margin: 0;
+  }
+
+  .contact-hero-pie--mobile {
+    display: block;
+    width: 86px;
+    max-width: 26vw;
+    height: auto;
+    transform: rotate(4deg);
+    margin: 0;
+  }
+
+  .contact-hero-pie--desktop {
+    display: none;
+  }
+}
