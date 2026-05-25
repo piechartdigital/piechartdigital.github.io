@@ -5565,3 +5565,57 @@ right: clamp(200px, 125vw, 500px);
     z-index: 998;
   }
 }
+/* Mobile-only collapsible service support cards */
+.service-side-card--collapsible summary {
+  list-style: none;
+  cursor: default;
+}
+
+.service-side-card--collapsible summary::-webkit-details-marker {
+  display: none;
+}
+
+.service-side-card--collapsible summary span {
+  display: block;
+  font-size: 1.15rem;
+  font-weight: 800;
+  margin-bottom: 14px;
+}
+
+/* Mobile accordion styling */
+@media (max-width: 767px) {
+  .service-side-card--collapsible summary {
+    cursor: pointer;
+    position: relative;
+    padding-right: 38px;
+  }
+
+  .service-side-card--collapsible summary span {
+    margin-bottom: 0;
+  }
+
+  .service-side-card--collapsible summary::after {
+    content: "+";
+    position: absolute;
+    right: 0;
+    top: 50%;
+    width: 28px;
+    height: 28px;
+    transform: translateY(-50%);
+    border-radius: 999px;
+    background: #ffd400;
+    color: #0b0b0b;
+    font-weight: 900;
+    display: grid;
+    place-items: center;
+    box-shadow: 0 4px 0 rgba(0, 0, 0, 0.12);
+  }
+
+  .service-side-card--collapsible[open] summary::after {
+    content: "−";
+  }
+
+  .service-side-card--collapsible .service-side-list {
+    margin-top: 18px;
+  }
+}
