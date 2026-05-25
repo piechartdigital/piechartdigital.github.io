@@ -5619,3 +5619,25 @@ right: clamp(200px, 125vw, 500px);
     margin-top: 18px;
   }
 }
+/* Green ticks inside service tag pills */
+.service-tags span {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.service-tags span::before {
+  content: "✓";
+  width: 18px;
+  height: 18px;
+  flex: 0 0 18px;
+  display: inline-grid;
+  place-items: center;
+  border-radius: 6px;
+  background: #16a34a;
+  color: #ffffff;
+  font-size: 0.8rem;
+  font-weight: 900;
+  line-height: 1;
+  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.12);
+}
