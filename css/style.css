@@ -6008,3 +6008,35 @@ right: clamp(200px, 125vw, 500px);
     min-height: 50px;
   }
 }
+.quote-email-card {
+  margin-top: 28px;
+  padding: clamp(22px, 4vw, 34px);
+  border-radius: 30px;
+  background: #fff4a8;
+  border: 2px solid rgba(0, 0, 0, 0.08);
+  box-shadow: 0 12px 0 rgba(0, 0, 0, 0.08);
+}
+
+.quote-email-card h2 {
+  margin: 0 0 12px;
+  font-family: "Space Grotesk", sans-serif;
+  font-size: clamp(1.55rem, 3vw, 2.2rem);
+  line-height: 1;
+  letter-spacing: -0.04em;
+}
+
+.quote-email-card p {
+  margin: 0;
+  line-height: 1.55;
+  color: #333333;
+}
+
+.quote-email-card a {
+  display: inline-block;
+  margin-top: 14px;
+  color: #0b0b0b;
+  font-weight: 900;
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 4px;
+}
