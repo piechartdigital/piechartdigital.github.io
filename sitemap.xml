@@ -67,6 +67,9 @@
   <url>
     <loc>https://piechartdigital.co.uk/simply-self-employed.html</loc>
   </url>
-
+<url>
+  <loc>https://piechartdigital.co.uk/get-quote.html</loc>
+  <priority>0.8</priority>
+</url>
   
 </urlset>
