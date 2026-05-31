@@ -6460,3 +6460,20 @@ right: clamp(200px, 125vw, 500px);
 .growth-plan-preview + .section-slider {
   padding-top: 0;
 }
+.growth-plan-card-cta {
+  margin-top: 24px;
+}
+
+.growth-plan-card-cta .btn {
+  width: 100%;
+  justify-content: center;
+  font-size: 0.95rem;
+  padding-inline: 18px;
+}
+
+/* Hide the duplicate white-card CTA on mobile */
+@media (max-width: 900px) {
+  .growth-plan-card-cta {
+    display: none;
+  }
+}
