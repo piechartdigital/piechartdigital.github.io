@@ -6451,3 +6451,12 @@ right: clamp(200px, 125vw, 500px);
   margin-bottom: 18px;
   font-size: 0.82rem;
 }
+/* Tighten Growth Plan spacing around slider */
+.growth-plan-preview {
+  padding-top: clamp(28px, 4vw, 54px);
+  padding-bottom: clamp(28px, 4vw, 54px);
+}
+
+.growth-plan-preview + .section-slider {
+  padding-top: 0;
+}
