@@ -6505,9 +6505,9 @@ right: clamp(200px, 125vw, 500px);
   margin-bottom: 14px;
   color: #ffffff;
   font-weight: 900;
-  font-size: clamp(2.4rem, 4vw, 3.2rem);
+  font-size: clamp(1.75rem, 3vw, 2.45rem);
   line-height: 1;
-  letter-spacing: -0.04em;
+  letter-spacing: 0.035em;
   text-decoration: none;
 }
 
