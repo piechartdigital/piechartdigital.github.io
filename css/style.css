@@ -6477,3 +6477,26 @@ right: clamp(200px, 125vw, 500px);
     display: none;
   }
 }
+/* Growth Plan mobile CTA placement */
+.growth-plan-mobile-actions {
+  display: none;
+}
+
+@media (max-width: 900px) {
+  .growth-plan-copy .growth-plan-actions {
+    display: none;
+  }
+
+  .growth-plan-mobile-actions {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 22px;
+  }
+
+  .growth-plan-mobile-actions .btn {
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+  }
+}
