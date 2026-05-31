@@ -6502,10 +6502,12 @@ right: clamp(200px, 125vw, 500px);
 }
 .footer-phone {
   display: inline-block;
-  margin-bottom: 8px;
+  margin-bottom: 14px;
   color: #ffffff;
-  font-weight: 800;
-  font-size: clamp(1.05rem, 1.6vw, 1.35rem);
+  font-weight: 900;
+  font-size: clamp(2.4rem, 4vw, 3.2rem);
+  line-height: 1;
+  letter-spacing: -0.04em;
   text-decoration: none;
 }
 
@@ -6513,5 +6515,5 @@ right: clamp(200px, 125vw, 500px);
 .footer-phone:focus-visible {
   color: #ffd400;
   text-decoration: underline;
-  text-underline-offset: 4px;
+  text-underline-offset: 6px;
 }
