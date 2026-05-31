@@ -6053,3 +6053,132 @@ right: clamp(200px, 125vw, 500px);
   text-decoration: none;
   box-shadow: 0 5px 0 rgba(0, 0, 0, 0.08);
 }
+/* ------------------------------
+   Thank you page
+------------------------------ */
+
+.thank-you-hero {
+  min-height: 70vh;
+  display: flex;
+  align-items: center;
+  padding: clamp(54px, 8vw, 96px) 0;
+  background:
+    radial-gradient(circle at top right, rgba(255, 255, 255, 0.42), transparent 34%),
+    #ffd400;
+}
+
+.thank-you-card {
+  max-width: 880px;
+  margin: 0 auto;
+  padding: clamp(28px, 5vw, 56px);
+  border-radius: 36px;
+  background: #ffffff;
+  text-align: center;
+  border: 2px solid rgba(0, 0, 0, 0.08);
+  box-shadow: 0 18px 0 rgba(0, 0, 0, 0.14);
+}
+
+.thank-you-icon {
+  width: 76px;
+  height: 76px;
+  margin: 0 auto 22px;
+  display: grid;
+  place-items: center;
+  border-radius: 999px;
+  background: #16a34a;
+  color: #ffffff;
+  font-size: 2.8rem;
+  font-weight: 900;
+  box-shadow: 0 8px 0 rgba(0, 0, 0, 0.12);
+}
+
+.thank-you-card .section-kicker {
+  display: inline-flex;
+  margin: 0 auto 18px;
+}
+
+.thank-you-card h1 {
+  max-width: 760px;
+  margin: 0 auto 18px;
+  font-family: "Space Grotesk", sans-serif;
+  font-size: clamp(2.7rem, 7vw, 5.4rem);
+  line-height: 0.92;
+  letter-spacing: -0.06em;
+  color: #0b0b0b;
+}
+
+.thank-you-card p {
+  max-width: 680px;
+  margin: 0 auto 14px;
+  color: #333333;
+  font-size: clamp(1.02rem, 1.8vw, 1.18rem);
+  line-height: 1.6;
+}
+
+.thank-you-actions {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 30px;
+}
+
+.thank-you-email {
+  margin: 32px auto 0;
+  padding: 18px 20px;
+  max-width: 540px;
+  border-radius: 22px;
+  background: #fff4a8;
+  border: 2px solid rgba(0, 0, 0, 0.08);
+}
+
+.thank-you-email span {
+  display: block;
+  margin-bottom: 8px;
+  color: #333333;
+  font-weight: 800;
+}
+
+.thank-you-email a {
+  display: inline-block;
+  color: #0b0b0b;
+  font-weight: 900;
+  font-size: clamp(1.05rem, 2vw, 1.35rem);
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 4px;
+}
+
+@media (max-width: 640px) {
+  .thank-you-hero {
+    min-height: auto;
+    padding: 42px 0 58px;
+  }
+
+  .thank-you-card {
+    border-radius: 28px;
+    text-align: left;
+  }
+
+  .thank-you-icon,
+  .thank-you-card .section-kicker,
+  .thank-you-card h1,
+  .thank-you-card p {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .thank-you-actions {
+    justify-content: flex-start;
+  }
+
+  .thank-you-actions .btn {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .thank-you-email {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
