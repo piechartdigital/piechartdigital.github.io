@@ -171,44 +171,69 @@
           </aside>
 
           <div class="contact-form-wrap">
-            <form class="contact-form" action="#" method="post">
-              <div class="contact-form__grid">
-                <div class="contact-field">
-                  <label for="name">Name</label>
-                  <input type="text" id="name" name="name" placeholder="Your name" required />
-                </div>
+           <form
+  class="contact-form"
+  action="https://formsubmit.co/hello@piechartdigital.co.uk"
+  method="POST"
+>
+  <input type="hidden" name="_subject" value="New contact enquiry from Piechart Digital website">
+  <input type="hidden" name="_template" value="table">
+  <input type="hidden" name="_captcha" value="true">
+  <input type="hidden" name="_next" value="https://piechartdigital.co.uk/thank-you.html">
 
-                <div class="contact-field">
-                  <label for="email">Email</label>
-                  <input type="email" id="email" name="email" placeholder="you@example.com" required />
-                </div>
-              </div>
+  <div class="quote-honeypot" aria-hidden="true">
+    <label for="contact_company_website">Leave this field blank</label>
+    <input
+      type="text"
+      id="contact_company_website"
+      name="company_website"
+      tabindex="-1"
+      autocomplete="off"
+    >
+  </div>
 
-              <div class="contact-field">
-                <label for="phone">Phone number</label>
-                <input type="tel" id="phone" name="phone" placeholder="Optional" />
-              </div>
+  <div class="contact-form__grid">
+    <div class="contact-field">
+      <label for="name">Name</label>
+      <input type="text" id="name" name="Name" placeholder="Your name" required />
+    </div>
 
-              <div class="contact-field">
-                <label for="subject">What do you need help with?</label>
-                <input type="text" id="subject" name="subject" placeholder="Paid ads, website, content, landing page..." />
-              </div>
+    <div class="contact-field">
+      <label for="email">Email</label>
+      <input type="email" id="email" name="Email" placeholder="you@example.com" required />
+    </div>
+  </div>
 
-              <div class="contact-field">
-                <label for="message">Message</label>
-                <textarea
-                  id="message"
-                  name="message"
-                  rows="7"
-                  placeholder="Tell us a bit about your business and what you’re looking for."
-                  required
-                ></textarea>
-              </div>
+  <div class="contact-field">
+    <label for="phone">Phone number</label>
+    <input type="tel" id="phone" name="Phone number" placeholder="Optional" />
+  </div>
 
-              <button class="btn btn-black contact-submit" type="submit">
-                Send message
-              </button>
-            </form>
+  <div class="contact-field">
+    <label for="subject">What do you need help with?</label>
+    <input
+      type="text"
+      id="subject"
+      name="What they need help with"
+      placeholder="Paid ads, website, content, landing page..."
+    />
+  </div>
+
+  <div class="contact-field">
+    <label for="message">Message</label>
+    <textarea
+      id="message"
+      name="Message"
+      rows="7"
+      placeholder="Tell us a bit about your business and what you’re looking for."
+      required
+    ></textarea>
+  </div>
+
+  <button class="btn btn-black contact-submit" type="submit">
+    Send message
+  </button>
+</form>
           </div>
         </div>
       </div>
