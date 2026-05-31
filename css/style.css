@@ -6304,3 +6304,119 @@ right: clamp(200px, 125vw, 500px);
   transform: translateY(-1px);
   box-shadow: 0 4px 0 rgba(0, 0, 0, 0.16);
 }
+/* ------------------------------
+   Growth plan preview
+------------------------------ */
+
+.growth-plan-preview {
+  background: #ffffff;
+}
+
+.growth-plan-card {
+  display: grid;
+  grid-template-columns: minmax(0, 1.2fr) minmax(300px, 0.8fr);
+  gap: clamp(24px, 5vw, 52px);
+  align-items: center;
+  padding: clamp(28px, 5vw, 56px);
+  border-radius: 36px;
+  background: #ffd400;
+  border: 2px solid rgba(0, 0, 0, 0.08);
+  box-shadow: 0 16px 0 rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.growth-plan-copy h2 {
+  max-width: 780px;
+  margin: 0 0 18px;
+  font-family: "Space Grotesk", sans-serif;
+  font-size: clamp(2.3rem, 5vw, 4.7rem);
+  line-height: 0.95;
+  letter-spacing: -0.06em;
+  color: #0b0b0b;
+}
+
+.growth-plan-copy p {
+  max-width: 720px;
+  margin: 0 0 16px;
+  color: #171717;
+  font-size: clamp(1rem, 1.7vw, 1.14rem);
+  line-height: 1.62;
+}
+
+.growth-plan-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 26px;
+}
+
+.growth-plan-price-card {
+  padding: clamp(22px, 4vw, 34px);
+  border-radius: 30px;
+  background: #ffffff;
+  border: 2px solid rgba(0, 0, 0, 0.1);
+  box-shadow: 0 12px 0 rgba(0, 0, 0, 0.12);
+}
+
+.growth-plan-eyebrow {
+  margin: 0;
+  color: #555555;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-size: 0.85rem;
+}
+
+.growth-plan-price {
+  margin: 4px 0 10px;
+  font-family: "Space Grotesk", sans-serif;
+  font-size: clamp(2.8rem, 6vw, 4.8rem);
+  line-height: 0.9;
+  font-weight: 800;
+  letter-spacing: -0.06em;
+  color: #0b0b0b;
+}
+
+.growth-plan-price span {
+  font-size: clamp(1.1rem, 2vw, 1.45rem);
+  letter-spacing: -0.02em;
+}
+
+.growth-plan-note {
+  margin: 0 0 20px;
+  color: #333333;
+  line-height: 1.55;
+  font-weight: 600;
+}
+
+.growth-plan-list {
+  margin: 0;
+  display: grid;
+  gap: 10px;
+}
+
+.growth-plan-list li {
+  line-height: 1.45;
+}
+
+@media (max-width: 900px) {
+  .growth-plan-card {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 640px) {
+  .growth-plan-card {
+    padding: 24px;
+    border-radius: 28px;
+  }
+
+  .growth-plan-actions .btn {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .growth-plan-price-card {
+    border-radius: 24px;
+  }
+}
