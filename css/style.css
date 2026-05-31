@@ -6248,3 +6248,59 @@ right: clamp(200px, 125vw, 500px);
   opacity: 1;
   transform: translateX(0);
 }
+/* Hero service pill buttons - green ticks and clickable hover */
+.hero .hero-choices a.chip.chip-link {
+  position: relative;
+  display: inline-flex !important;
+  align-items: center;
+  gap: 8px;
+  transition:
+    transform 0.18s ease,
+    box-shadow 0.18s ease,
+    background-color 0.18s ease;
+}
+
+.hero .hero-choices a.chip.chip-link::before {
+  content: "✓";
+  width: 18px;
+  height: 18px;
+  flex: 0 0 18px;
+  display: inline-grid;
+  place-items: center;
+  border-radius: 999px;
+  background: #16a34a;
+  color: #ffffff;
+  font-size: 0.75rem;
+  font-weight: 900;
+  line-height: 1;
+  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.14);
+}
+
+.hero .hero-choices a.chip.chip-link::after {
+  content: "→";
+  margin-left: 2px;
+  font-weight: 900;
+  opacity: 0;
+  transform: translateX(-4px);
+  transition:
+    opacity 0.18s ease,
+    transform 0.18s ease;
+}
+
+.hero .hero-choices a.chip.chip-link:hover,
+.hero .hero-choices a.chip.chip-link:focus-visible {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 0 rgba(0, 0, 0, 0.16);
+  background: #ffffff;
+}
+
+.hero .hero-choices a.chip.chip-link:hover::after,
+.hero .hero-choices a.chip.chip-link:focus-visible::after {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.hero .hero-choices a.chip.chip-link:active {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 0 rgba(0, 0, 0, 0.16);
+}
