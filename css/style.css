@@ -6551,3 +6551,27 @@ right: clamp(200px, 125vw, 500px);
   pointer-events: none;
   z-index: 1;
 }
+@media (min-width: 768px) and (max-width: 1100px) {
+  .neuro-hero {
+    position: relative;
+    overflow: hidden;
+  }
+
+  .neuro-hero__inner {
+    position: relative;
+    z-index: 2;
+    max-width: 620px;
+  }
+
+  .neuro-hero-pie {
+    width: clamp(120px, 18vw, 190px);
+    top: 26px;
+    right: 34px;
+    left: auto;
+    bottom: auto;
+    transform: none;
+    opacity: 0.75;
+    pointer-events: none;
+    z-index: 1;
+  }
+}
