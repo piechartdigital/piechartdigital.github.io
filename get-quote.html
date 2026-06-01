@@ -111,18 +111,18 @@
       <div class="container quote-main__container">
 
         <div class="quote-form-wrap">
-          <form
-            class="quote-form"
-            action="https://formsubmit.co/hello@piechartdigital.co.uk"
-            method="POST"
-            data-quote-form
-          >
+       <form
+  class="quote-form"
+  action="https://api.web3forms.com/submit"
+  method="POST"
+  data-quote-form
+>
 
-            <input type="hidden" name="_subject" value="New quote request from Piechart Digital website">
-            <input type="hidden" name="_template" value="table">
-            <input type="hidden" name="_captcha" value="true">
-            <input type="hidden" name="_next" value="https://piechartdigital.co.uk/thank-you.html">
-
+           <input type="hidden" name="access_key" value="3cc64872-8491-44a8-9345-4d1491b20864">
+<input type="hidden" name="subject" value="New quote request from Piechart Digital website">
+<input type="hidden" name="from_name" value="Piechart Digital Website">
+<input type="hidden" name="redirect" value="https://piechartdigital.co.uk/thank-you.html">
+<input type="checkbox" name="botcheck" class="hidden" style="display: none;">
             <div class="quote-honeypot" aria-hidden="true">
               <label for="company_website">Leave this field blank</label>
               <input type="text" id="company_website" name="company_website" tabindex="-1" autocomplete="off">
@@ -150,7 +150,7 @@
             <div class="quote-form__grid">
               <div class="quote-field">
                 <label for="email">Email address <span>*</span></label>
-                <input type="email" id="email" name="Email" placeholder="you@example.com" required>
+                <input type="email" id="email" name="email" placeholder="you@example.com" required>
               </div>
 
               <div class="quote-field">
