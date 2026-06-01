@@ -6626,21 +6626,33 @@ right: clamp(200px, 125vw, 500px);
    Specialist support cards - services page
 ------------------------------ */
 
+.specialist-support .blog-preview-grid {
+  max-width: 760px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
 @media (min-width: 768px) {
   .specialist-support .blog-preview-grid {
-    display: grid;
-    grid-template-columns: repeat(2, minmax(0, 360px));
-    justify-content: center;
-    gap: 24px;
+    display: grid !important;
+    grid-template-columns: repeat(2, 1fr) !important;
+    gap: 24px !important;
+    justify-content: center !important;
   }
 
   .specialist-support .blog-preview-card {
-    width: 100%;
+    width: 100% !important;
+    max-width: 360px !important;
   }
 }
 
 @media (max-width: 767px) {
   .specialist-support .blog-preview-grid {
-    grid-template-columns: 1fr;
+    max-width: 100% !important;
+    grid-template-columns: 1fr !important;
+  }
+
+  .specialist-support .blog-preview-card {
+    max-width: 100% !important;
   }
 }
