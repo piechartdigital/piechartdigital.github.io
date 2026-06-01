@@ -6605,3 +6605,12 @@ right: clamp(200px, 125vw, 500px);
     z-index: 1 !important;
   }
 }
+/* ------------------------------
+   Services page specialist panels centring
+------------------------------ */
+
+.specialist-support-grid,
+.specialist-pages-grid,
+.local-pages-grid {
+  justify-content: center;
+}
