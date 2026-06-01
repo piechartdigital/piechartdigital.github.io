@@ -6596,7 +6596,7 @@ right: clamp(200px, 125vw, 500px);
     width: clamp(170px, 18vw, 260px) !important;
     max-width: 260px !important;
     top: 58px !important;
-    right: clamp(28px, 8vw, 120px) !important;
+    right: clamp(18px, 4vw, 70px) !important;
     left: auto !important;
     bottom: auto !important;
     transform: none !important;
