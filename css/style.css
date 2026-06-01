@@ -6517,3 +6517,9 @@ right: clamp(200px, 125vw, 500px);
   text-decoration: underline;
   text-underline-offset: 6px;
 }
+.growth-plan-preview .growth-plan-copy .section-kicker {
+  font-size: 1.08rem;
+  padding: 13px 20px;
+  min-height: 48px;
+  font-weight: 900;
+}
