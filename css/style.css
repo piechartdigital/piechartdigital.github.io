@@ -6622,3 +6622,25 @@ right: clamp(200px, 125vw, 500px);
     max-width: 360px;
   }
 }
+/* ------------------------------
+   Specialist support cards - services page
+------------------------------ */
+
+@media (min-width: 768px) {
+  .specialist-support .blog-preview-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 360px));
+    justify-content: center;
+    gap: 24px;
+  }
+
+  .specialist-support .blog-preview-card {
+    width: 100%;
+  }
+}
+
+@media (max-width: 767px) {
+  .specialist-support .blog-preview-grid {
+    grid-template-columns: 1fr;
+  }
+}
