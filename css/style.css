@@ -6606,11 +6606,19 @@ right: clamp(200px, 125vw, 500px);
   }
 }
 /* ------------------------------
-   Services page specialist panels centring
+   Centre the two specialist support cards on desktop
 ------------------------------ */
 
-.specialist-support-grid,
-.specialist-pages-grid,
-.local-pages-grid {
-  justify-content: center;
+@media (min-width: 768px) {
+  .specialist-support .blog-preview-grid,
+  .specialist-support .card-grid,
+  .specialist-support .services-grid {
+    justify-content: center;
+  }
+
+  .specialist-support .blog-preview-card,
+  .specialist-support .card,
+  .specialist-support .service-card {
+    max-width: 360px;
+  }
 }
