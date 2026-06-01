@@ -6575,3 +6575,33 @@ right: clamp(200px, 125vw, 500px);
     z-index: 1;
   }
 }
+/* ------------------------------
+   Neurodiversity hero tablet / small desktop fix
+------------------------------ */
+
+@media (min-width: 768px) and (max-width: 1350px) {
+  .neuro-hero {
+    position: relative !important;
+    overflow: hidden !important;
+  }
+
+  .neuro-hero__inner {
+    position: relative !important;
+    z-index: 2 !important;
+    max-width: 620px !important;
+  }
+
+  .neuro-hero-pie {
+    position: absolute !important;
+    width: clamp(170px, 18vw, 260px) !important;
+    max-width: 260px !important;
+    top: 58px !important;
+    right: clamp(28px, 8vw, 120px) !important;
+    left: auto !important;
+    bottom: auto !important;
+    transform: none !important;
+    opacity: 0.9 !important;
+    pointer-events: none !important;
+    z-index: 1 !important;
+  }
+}
