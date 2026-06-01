@@ -6523,3 +6523,31 @@ right: clamp(200px, 125vw, 500px);
   min-height: 48px;
   font-weight: 900;
 }
+/* ------------------------------
+   Neurodiversity mobile nav click fix
+------------------------------ */
+
+.site-header {
+  position: relative;
+  z-index: 1000;
+}
+
+.nav-toggle {
+  position: relative;
+  z-index: 1002;
+}
+
+.site-nav {
+  z-index: 1001;
+}
+
+.neuro-hero {
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.neuro-hero-pie {
+  pointer-events: none;
+  z-index: 1;
+}
