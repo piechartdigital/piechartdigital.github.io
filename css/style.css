@@ -6727,3 +6727,59 @@ right: clamp(200px, 125vw, 500px);
     z-index: 1 !important;
   }
 }
+/* ------------------------------
+   Blog hero writer image responsive fix
+------------------------------ */
+
+.blog-hero {
+  position: relative;
+  overflow: hidden;
+}
+
+.blog-hero__inner {
+  position: relative;
+  z-index: 2;
+}
+
+.blog-pie-writer {
+  pointer-events: none;
+  z-index: 1;
+}
+
+/* Tablet / awkward in-between screens */
+@media (min-width: 768px) and (max-width: 1200px) {
+  .blog-hero__inner {
+    max-width: 560px;
+    padding-right: 0;
+  }
+
+  .blog-pie-writer {
+    position: absolute !important;
+    width: clamp(130px, 17vw, 210px) !important;
+    max-width: 210px !important;
+    top: 30px !important;
+    right: clamp(24px, 6vw, 80px) !important;
+    left: auto !important;
+    bottom: auto !important;
+    transform: none !important;
+  }
+}
+
+/* Mobile */
+@media (max-width: 767px) {
+  .blog-hero__inner {
+    max-width: 100%;
+    padding-right: 115px;
+  }
+
+  .blog-pie-writer {
+    position: absolute !important;
+    width: 95px !important;
+    max-width: 95px !important;
+    top: 26px !important;
+    right: 18px !important;
+    left: auto !important;
+    bottom: auto !important;
+    transform: none !important;
+  }
+}
