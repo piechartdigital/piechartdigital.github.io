@@ -7720,3 +7720,32 @@ right: clamp(200px, 125vw, 500px);
     margin-right: auto;
   }
 }
+/* ------------------------------
+   Growth Plan mobile CTA fix
+------------------------------ */
+
+.growth-plan-mobile-actions {
+  display: none;
+}
+
+@media (max-width: 640px) {
+  .growth-plan-actions {
+    display: none !important;
+  }
+
+  .growth-plan-price-card .growth-plan-card-cta {
+    display: none !important;
+  }
+
+  .growth-plan-mobile-actions {
+    display: flex !important;
+    width: 100%;
+    margin-top: 20px;
+    order: 3;
+  }
+
+  .growth-plan-mobile-actions .btn {
+    width: 100%;
+    justify-content: center;
+  }
+}
