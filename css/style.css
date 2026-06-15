@@ -7672,3 +7672,12 @@ right: clamp(200px, 125vw, 500px);
     border-radius: 24px;
   }
 }
+/* ------------------------------
+   Homepage mobile text trim
+------------------------------ */
+
+@media (max-width: 640px) {
+  .who-mobile-hide {
+    display: none;
+  }
+}
