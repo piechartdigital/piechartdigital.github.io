@@ -7708,3 +7708,15 @@ right: clamp(200px, 125vw, 500px);
     justify-content: center;
   }
 }
+/* ------------------------------
+   Mobile hero kicker alignment
+------------------------------ */
+
+@media (max-width: 640px) {
+  .hero-copy .kicker {
+    align-self: flex-start;
+    text-align: left;
+    margin-left: 0;
+    margin-right: auto;
+  }
+}
