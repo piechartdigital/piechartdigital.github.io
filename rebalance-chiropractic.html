@@ -149,26 +149,37 @@
       </div>
     </section>
 
-    <section class="case-study-media-grid">
-      <div class="container">
-        <div class="case-study-media-grid__wrap">
-          <div class="case-study-media-card">
-            <img
-              src="image/rebalance-chiropractic-screen-1.jpg"
-              alt="Rebalance Chiropractic website or landing page view"
-              loading="lazy"
-            />
-          </div>
-          <div class="case-study-media-card">
-            <img
-              src="image/rebalance-chiropractic-screen-2.jpg"
-              alt="Rebalance Chiropractic paid ad or social media design"
-              loading="lazy"
-            />
-          </div>
-        </div>
-      </div>
-    </section>
+   <section class="case-study-media-grid">
+  <div class="container">
+    <div class="case-study-media-grid__wrap">
+      <button
+        class="case-study-media-card case-study-lightbox-trigger"
+        type="button"
+        data-lightbox-src="image/rebalance-chiropractic-screen-1.jpg"
+        data-lightbox-alt="Rebalance Chiropractic website or landing page view"
+      >
+        <img
+          src="image/rebalance-chiropractic-screen-1.jpg"
+          alt="Rebalance Chiropractic website or landing page view"
+          loading="lazy"
+        />
+      </button>
+
+      <button
+        class="case-study-media-card case-study-lightbox-trigger"
+        type="button"
+        data-lightbox-src="image/rebalance-chiropractic-screen-2.jpg"
+        data-lightbox-alt="Rebalance Chiropractic paid ad or social media design"
+      >
+        <img
+          src="image/rebalance-chiropractic-screen-2.jpg"
+          alt="Rebalance Chiropractic paid ad or social media design"
+          loading="lazy"
+        />
+      </button>
+    </div>
+  </div>
+</section>
 
     <section class="case-study-text-block">
       <div class="container case-study-text-block__container">
@@ -203,26 +214,26 @@
       />
     </section>
 
-    <section class="case-study-media-grid">
-      <div class="container">
-        <div class="case-study-media-grid__wrap">
-          <div class="case-study-media-card">
-            <img
-              src="image/rebalance-chiropractic-screen-3.jpg"
-              alt="Rebalance Chiropractic Google ads or website screen"
-              loading="lazy"
-            />
-          </div>
-          <div class="case-study-media-card">
-            <img
-              src="image/rebalance-chiropractic-screen-4.jpg"
-              alt="Rebalance Chiropractic organic social media template or post"
-              loading="lazy"
-            />
-          </div>
-        </div>
+   <section class="case-study-media-grid">
+  <div class="container">
+    <div class="case-study-media-grid__wrap">
+      <div class="case-study-media-card">
+        <img
+          src="image/rebalance-chiropractic-screen-3.jpg"
+          alt="Rebalance Chiropractic Google ads or website screen"
+          loading="lazy"
+        />
       </div>
-    </section>
+      <div class="case-study-media-card">
+        <img
+          src="image/rebalance-chiropractic-screen-4.jpg"
+          alt="Rebalance Chiropractic organic social media template or post"
+          loading="lazy"
+        />
+      </div>
+    </div>
+  </div>
+</section>
 
     <section class="case-study-text-block case-study-text-block--alt">
       <div class="container case-study-text-block__container">
@@ -449,6 +460,17 @@
       });
     }
   </script>
+              <div class="image-lightbox" id="imageLightbox" aria-hidden="true">
+  <button class="image-lightbox__close" type="button" aria-label="Close image preview">
+    ×
+  </button>
+
+  <button class="image-lightbox__backdrop" type="button" aria-label="Close image preview"></button>
+
+  <div class="image-lightbox__content" role="dialog" aria-modal="true" aria-label="Image preview">
+    <img src="" alt="" class="image-lightbox__image" />
+  </div>
+</div>
         <script src="js/main.js" defer></script>
 
 <div class="cookie-banner" id="cookieBanner" hidden>
