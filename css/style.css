@@ -7749,3 +7749,121 @@ right: clamp(200px, 125vw, 500px);
     justify-content: center;
   }
 }
+/* ------------------------------
+   Case study image lightbox
+------------------------------ */
+
+.case-study-lightbox-trigger {
+  display: block;
+  width: 100%;
+  padding: 0;
+  border: 0;
+  text-align: inherit;
+  background: #ffffff;
+  cursor: zoom-in;
+  border-radius: 18px;
+  overflow: hidden;
+}
+
+.case-study-lightbox-trigger img {
+  display: block;
+  width: 100%;
+  border-radius: inherit;
+  transition:
+    transform 180ms ease,
+    box-shadow 180ms ease;
+}
+
+.case-study-lightbox-trigger:hover img,
+.case-study-lightbox-trigger:focus-visible img {
+  transform: scale(1.025);
+}
+
+.case-study-lightbox-trigger:focus-visible {
+  outline: 3px solid #0b0b0b;
+  outline-offset: 5px;
+}
+
+.image-lightbox {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  padding: clamp(18px, 4vw, 48px);
+}
+
+.image-lightbox.is-open {
+  display: flex;
+}
+
+.image-lightbox__backdrop {
+  position: absolute;
+  inset: 0;
+  border: 0;
+  background: rgba(0, 0, 0, 0.78);
+  cursor: zoom-out;
+}
+
+.image-lightbox__content {
+  position: relative;
+  z-index: 2;
+  width: min(1200px, 94vw);
+  max-height: 88vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-lightbox__image {
+  display: block;
+  max-width: 100%;
+  max-height: 88vh;
+  border-radius: 22px;
+  background: #ffffff;
+  box-shadow: 0 24px 70px rgba(0, 0, 0, 0.35);
+}
+
+.image-lightbox__close {
+  position: fixed;
+  top: 18px;
+  right: 18px;
+  z-index: 3;
+  width: 46px;
+  height: 46px;
+  border: 0;
+  border-radius: 999px;
+  background: #ffffff;
+  color: #0b0b0b;
+  font-size: 2rem;
+  font-weight: 900;
+  line-height: 1;
+  cursor: pointer;
+  box-shadow: 0 6px 0 rgba(0, 0, 0, 0.2);
+}
+
+.image-lightbox__close:hover,
+.image-lightbox__close:focus-visible {
+  transform: translateY(-2px);
+}
+
+body.lightbox-open {
+  overflow: hidden;
+}
+
+@media (max-width: 640px) {
+  .image-lightbox {
+    padding: 14px;
+  }
+
+  .image-lightbox__image {
+    border-radius: 16px;
+  }
+
+  .image-lightbox__close {
+    width: 42px;
+    height: 42px;
+    font-size: 1.8rem;
+  }
+}
