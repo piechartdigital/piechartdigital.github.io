@@ -380,3 +380,50 @@ if (collapsibleServiceCards.length) {
   handleServiceAccordions();
   window.addEventListener("resize", handleServiceAccordions);
 }
+// Case study image lightbox
+const imageLightbox = document.querySelector("#imageLightbox");
+const imageLightboxImage = document.querySelector(".image-lightbox__image");
+const imageLightboxTriggers = document.querySelectorAll(".case-study-lightbox-trigger");
+const imageLightboxCloseButtons = document.querySelectorAll(".image-lightbox__close, .image-lightbox__backdrop");
+
+function openImageLightbox(src, alt) {
+  if (!imageLightbox || !imageLightboxImage) return;
+
+  imageLightboxImage.src = src;
+  imageLightboxImage.alt = alt || "";
+  imageLightbox.classList.add("is-open");
+  imageLightbox.setAttribute("aria-hidden", "false");
+  document.body.classList.add("lightbox-open");
+}
+
+function closeImageLightbox() {
+  if (!imageLightbox || !imageLightboxImage) return;
+
+  imageLightbox.classList.remove("is-open");
+  imageLightbox.setAttribute("aria-hidden", "true");
+  document.body.classList.remove("lightbox-open");
+
+  imageLightboxImage.src = "";
+  imageLightboxImage.alt = "";
+}
+
+imageLightboxTriggers.forEach((trigger) => {
+  trigger.addEventListener("click", () => {
+    const src = trigger.getAttribute("data-lightbox-src");
+    const alt = trigger.getAttribute("data-lightbox-alt");
+
+    if (src) {
+      openImageLightbox(src, alt);
+    }
+  });
+});
+
+imageLightboxCloseButtons.forEach((button) => {
+  button.addEventListener("click", closeImageLightbox);
+});
+
+document.addEventListener("keydown", (event) => {
+  if (event.key === "Escape") {
+    closeImageLightbox();
+  }
+});
