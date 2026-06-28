@@ -449,17 +449,6 @@
   </footer>
 
 
-  <script>
-    const navToggle = document.querySelector(".nav-toggle");
-    const siteNav = document.querySelector(".site-nav");
-
-    if (navToggle && siteNav) {
-      navToggle.addEventListener("click", () => {
-        const isOpen = siteNav.classList.toggle("is-open");
-        navToggle.setAttribute("aria-expanded", isOpen ? "true" : "false");
-      });
-    }
-  </script>
               <div class="image-lightbox" id="imageLightbox" aria-hidden="true">
   <button class="image-lightbox__close" type="button" aria-label="Close image preview">
     ×
