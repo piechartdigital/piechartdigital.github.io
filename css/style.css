@@ -3824,6 +3824,7 @@ right: clamp(200px, 125vw, 500px);
   margin: 0;
   color: rgba(255, 255, 255, 0.78);
   font-weight: 700;
+    font-size: 2rem;
 }
 
 .case-study-related {
@@ -4783,7 +4784,7 @@ right: clamp(200px, 125vw, 500px);
 }
 
 .case-study-quote .case-study-quote__text,
-.case-study-quote .case-study-quote__source {
+.case-study-quote {
   color: #0b0b0b;
 }
 @media (max-width: 767px) {
