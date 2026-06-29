@@ -7965,3 +7965,7 @@ body.lightbox-open {
 .case-study-back-btn {
   margin-bottom: 22px;
 }
+.case-study-back-btn {
+  display: inline-flex;
+  margin-bottom: 22px;
+}
