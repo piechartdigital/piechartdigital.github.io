@@ -7978,7 +7978,7 @@ body.lightbox-open {
 }
 .case-study-quote__source {
   margin: 0;
-  color: rgba(255, 255, 255, 0.78);
+  color: #000;
   font-weight: 700;
-    font-size: 2rem;
+  font-size: 1.7rem;
 }
