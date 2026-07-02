@@ -8213,3 +8213,53 @@ body.lightbox-open {
     margin: 0 auto !important;
   }
 }
+/* ------------------------------
+   Strong mobile fix for Manchester hero height
+------------------------------ */
+
+@media (max-width: 640px) {
+  .local-hero {
+    min-height: 0 !important;
+    height: auto !important;
+    padding-top: 24px !important;
+    padding-bottom: 24px !important;
+  }
+
+  .local-hero .container,
+  .local-hero__grid {
+    min-height: 0 !important;
+    height: auto !important;
+  }
+
+  .local-hero__grid {
+    display: grid !important;
+    grid-template-columns: 1fr !important;
+    gap: 10px !important;
+    align-items: start !important;
+  }
+
+  .local-hero__copy {
+    margin: 0 !important;
+  }
+
+  .local-hero__actions {
+    margin-top: 20px !important;
+    margin-bottom: 0 !important;
+  }
+
+  .local-hero__image {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+    padding: 0 !important;
+    min-height: 0 !important;
+    height: auto !important;
+  }
+
+  .local-hero__image img {
+    display: block !important;
+    width: 210px !important;
+    max-width: 75vw !important;
+    height: auto !important;
+    margin: 0 auto !important;
+  }
+}
