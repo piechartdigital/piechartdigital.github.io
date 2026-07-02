@@ -8090,3 +8090,39 @@ body.lightbox-open {
     width: min(100%, 340px);
   }
 }
+.local-hero__image img {
+  display: block;
+  width: min(100%, 430px);
+  height: auto;
+  object-fit: contain;
+  background: transparent !important;
+  border: 0 !important;
+  box-shadow: none !important;
+  border-radius: 0 !important;
+  filter: drop-shadow(0 16px 0 rgba(0, 0, 0, 0.08));
+}
+@media (max-width: 900px) {
+  .local-hero__grid {
+    grid-template-columns: 1fr;
+  }
+
+  .local-hero__image {
+    justify-content: flex-start;
+    margin-top: 20px;
+  }
+
+  .local-hero__image img {
+    width: min(100%, 360px);
+  }
+}
+
+@media (max-width: 640px) {
+  .local-hero__image {
+    justify-content: center;
+    margin-top: 18px;
+  }
+
+  .local-hero__image img {
+    width: min(100%, 300px);
+  }
+}
