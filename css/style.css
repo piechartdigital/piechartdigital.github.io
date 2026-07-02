@@ -8031,3 +8031,62 @@ body.lightbox-open {
     width: min(100%, 340px);
   }
 }
+/* ------------------------------
+   Manchester page hero image
+------------------------------ */
+
+.local-hero__grid {
+  display: grid;
+  grid-template-columns: minmax(0, 0.95fr) minmax(300px, 0.9fr);
+  gap: clamp(28px, 6vw, 80px);
+  align-items: center;
+}
+
+.local-hero__image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: transparent !important;
+  border: 0 !important;
+  box-shadow: none !important;
+  padding: 0 !important;
+  border-radius: 0 !important;
+}
+
+.local-hero__image img {
+  display: block;
+  width: min(100%, 520px);
+  height: auto;
+  object-fit: contain;
+  background: transparent !important;
+  border: 0 !important;
+  box-shadow: none !important;
+  border-radius: 0 !important;
+  filter: drop-shadow(0 16px 0 rgba(0, 0, 0, 0.08));
+}
+
+@media (max-width: 900px) {
+  .local-hero__grid {
+    grid-template-columns: 1fr;
+  }
+
+  .local-hero__image {
+    justify-content: flex-start;
+    margin-top: 20px;
+  }
+
+  .local-hero__image img {
+    width: min(100%, 420px);
+  }
+}
+
+@media (max-width: 640px) {
+  .local-hero__image {
+    justify-content: center;
+    margin-top: 18px;
+  }
+
+  .local-hero__image img {
+    width: min(100%, 340px);
+  }
+}
