@@ -8263,3 +8263,52 @@ body.lightbox-open {
     margin: 0 auto !important;
   }
 }
+/* ------------------------------
+   Manchester page mobile hero image reposition
+------------------------------ */
+
+@media (max-width: 640px) {
+  .local-hero {
+    position: relative;
+    padding: 26px 0 34px !important;
+    overflow: hidden;
+  }
+
+  .local-hero__grid {
+    display: block !important;
+    position: relative;
+  }
+
+  .local-hero__copy {
+    position: relative;
+    z-index: 2;
+  }
+
+  .local-hero__image {
+    position: absolute !important;
+    top: -4px;
+    right: 18px;
+    width: 120px;
+    margin: 0 !important;
+    padding: 0 !important;
+    z-index: 1;
+    pointer-events: none;
+  }
+
+  .local-hero__image img {
+    width: 120px !important;
+    max-width: 120px !important;
+    height: auto !important;
+    margin: 0 !important;
+    display: block !important;
+  }
+
+  .local-hero__copy .section-kicker {
+    max-width: calc(100% - 130px);
+  }
+
+  .local-hero__copy > p {
+    position: relative;
+    z-index: 2;
+  }
+}
