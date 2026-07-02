@@ -8185,3 +8185,31 @@ body.lightbox-open {
 .local-hero {
   padding: clamp(30px, 5vw, 58px) 0 clamp(30px, 4vw, 46px);
 }
+/* ------------------------------
+   Manchester page mobile hero spacing
+------------------------------ */
+
+@media (max-width: 640px) {
+  .local-hero {
+    padding: 28px 0 28px !important;
+  }
+
+  .local-hero__grid {
+    gap: 14px !important;
+  }
+
+  .local-hero__actions {
+    margin-top: 22px;
+    margin-bottom: 0;
+  }
+
+  .local-hero__image {
+    margin-top: 4px !important;
+    margin-bottom: 0 !important;
+  }
+
+  .local-hero__image img {
+    width: min(100%, 245px) !important;
+    margin: 0 auto !important;
+  }
+}
