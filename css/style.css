@@ -8191,7 +8191,7 @@ body.lightbox-open {
 
 @media (max-width: 640px) {
   .local-hero {
-    padding: 28px 0 28px !important;
+    padding: 22px 0 22px !important;
   }
 
   .local-hero__grid {
@@ -8209,7 +8209,7 @@ body.lightbox-open {
   }
 
   .local-hero__image img {
-    width: min(100%, 245px) !important;
+    width: min(100%, 220px) !important;
     margin: 0 auto !important;
   }
 }
