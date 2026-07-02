@@ -8312,3 +8312,24 @@ body.lightbox-open {
     z-index: 2;
   }
 }
+/* ------------------------------
+   Manchester page tighter section spacing
+------------------------------ */
+
+.local-hero {
+  padding-bottom: 26px !important;
+}
+
+.local-intro {
+  padding-top: 26px !important;
+  padding-bottom: 26px !important;
+}
+
+.local-intro + .section {
+  padding-top: 26px !important;
+}
+
+.local-panel {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
