@@ -8423,3 +8423,7 @@ body.lightbox-open {
 .about-contact-panel .what-we-do-head p {
   margin-top: 8px !important;
 }
+.slider-heading {
+  text-align: center;
+  margin: 0 0 36px;
+}
