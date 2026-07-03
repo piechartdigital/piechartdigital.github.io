@@ -8404,3 +8404,22 @@ body.lightbox-open {
     justify-content: center;
   }
 }
+.about-contact-section {
+  padding-top: 22px !important;
+}
+
+.about-contact-panel .what-we-do-head {
+  margin-bottom: 14px !important;
+}
+
+.about-contact-panel .section-kicker {
+  display: none;
+}
+
+.about-contact-panel .what-we-do-head h2 {
+  margin-bottom: 0 !important;
+}
+
+.about-contact-panel .what-we-do-head p {
+  margin-top: 8px !important;
+}
