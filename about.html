@@ -181,119 +181,110 @@
       </div>
     </section>
 
-    <section class="section about-founder">
-      <div class="container about-founder__grid">
-        <div class="about-founder__image">
-          <img
-            src="image/jay.png"
-            alt="Jay Perrin, founder of Piechart Digital"
-            loading="lazy"
-            decoding="async"
-          />
+     <form
+  class="contact-form"
+  action="https://api.web3forms.com/submit"
+  method="POST"
+>
+ <input type="hidden" name="access_key" value="3cc64872-8491-44a8-9345-4d1491b20864">
+<input type="hidden" name="subject" value="New contact enquiry from Piechart Digital website">
+<input type="hidden" name="from_name" value="Piechart Digital Website">
+<input type="hidden" name="redirect" value="https://piechartdigital.co.uk/thank-you.html">
+<input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+
+
+  <div class="contact-form__grid">
+    <div class="contact-field">
+      <label for="name">Name</label>
+      <input type="text" id="name" name="Name" placeholder="Your name" required />
+    </div>
+
+    <div class="contact-field">
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" placeholder="you@example.com" required />
+    </div>
+  </div>
+
+  <div class="contact-field">
+    <label for="phone">Phone number</label>
+    <input type="tel" id="phone" name="Phone number" placeholder="Optional" />
+  </div>
+
+  <div class="contact-field">
+    <label for="subject">What do you need help with?</label>
+    <input
+      type="text"
+      id="subject"
+      name="What they need help with"
+      placeholder="Paid ads, website, content, landing page..."
+    />
+  </div>
+
+  <div class="contact-field">
+    <label for="message">Message</label>
+    <textarea
+      id="message"
+      name="Message"
+      rows="7"
+      placeholder="Tell us a bit about your business and what you’re looking for."
+      required
+    ></textarea>
+  </div>
+
+  <button class="btn btn-black contact-submit" type="submit">
+    Send message
+  </button>
+</form>
+
+   <section class="section section-slider">
+  <div class="slider full-bleed" data-interval="4200" aria-label="Work showcase slider">
+    <div class="slider-viewport">
+      <div class="slider-track">
+
+        <div class="slide is-active">
+         <a href="net-ninja.html"> <picture>
+            <source media="(max-width: 767px)" srcset="image/slide-1-mobile.jpg" />
+            <img src="image/slide-1.jpg" alt="Showcase slide 1" loading="lazy" />
+          </picture> </a>
         </div>
 
-        <div class="about-founder__copy">
-          <p class="section-kicker">Founder-led support</p>
-
-          <h2>Led by digital marketing experience.</h2>
-
-          <p>
-            Piechart is led by Jay Perrin, a digital marketer with more than 15 years of experience across paid social, content, landing pages, websites, email marketing and campaign strategy.
-          </p>
-
-          <p>
-            Over the years, Jay has worked across a wide mix of businesses, from local brands and family-run companies to national campaigns, education platforms, insurance providers, sports organisations and specialist service businesses.
-          </p>
-
-          <p>
-            The focus now is simple: help businesses make better use of their online presence, get clearer on what they are trying to achieve and put digital marketing activity in place that actually supports growth.
-          </p>
+        <div class="slide">
+          <a href="stockport-vikings.html"><picture>
+            <source media="(max-width: 767px)" srcset="image/slide-2-mobile.jpg" />
+            <img src="image/slide-2.jpg" alt="Showcase slide 2" loading="lazy" />
+          </picture> </a>
         </div>
+
+        <div class="slide">
+          <a href="totally-sports-insurance.html"> <picture>
+            <source media="(max-width: 767px)" srcset="image/slide-3-mobile.jpg" />
+            <img src="image/slide-3.jpg" alt="Showcase slide 3" loading="lazy" />
+          </picture>  </a>
+        </div>
+
+        <div class="slide">
+         <a href="mads-adhd.html"> <picture>
+            <source media="(max-width: 767px)" srcset="image/slide-4-mobile.jpg" />
+            <img src="image/slide-4.jpg" alt="Showcase slide 4" loading="lazy" />
+          </picture>  </a>
+        </div>
+
+        <div class="slide">
+           <a href="millet-sports.html"> <picture>
+            <source media="(max-width: 767px)" srcset="image/slide-5-mobile.jpg" />
+            <img src="image/slide-5.jpg" alt="Showcase slide 5" loading="lazy" />
+          </picture></a>
+        </div>
+
       </div>
-    </section>
+    </div>
 
-    <section class="section section-alt about-services">
-      <div class="container">
-        <div class="what-we-do-head">
-          <p class="section-kicker">What we help with</p>
-          <h2>Digital marketing support that joins the dots.</h2>
-          <p>
-            Most businesses do not need random marketing activity. They need their ads, website, content and messaging to work together.
-          </p>
-        </div>
+    <button class="slider-btn prev" type="button" aria-label="Previous slide">‹</button>
+    <button class="slider-btn next" type="button" aria-label="Next slide">›</button>
 
-        <div class="about-services__grid">
-          <a class="about-service-link-card" href="services.html#meta-ads">
-            <h3>Paid advertising</h3>
-            <p>
-              Meta Ads, Google Ads, campaign structure, targeting, creative direction and lead generation support.
-            </p>
-          </a>
-
-          <a class="about-service-link-card" href="services.html#organic-content">
-            <h3>Social content</h3>
-            <p>
-              Social media content ideas, organic posting support and creative that helps your brand stay visible.
-            </p>
-          </a>
-
-          <a class="about-service-link-card" href="services.html#landing-pages">
-            <h3>Landing pages</h3>
-            <p>
-              Better landing pages, clearer calls to action and pages built around enquiries and conversions.
-            </p>
-          </a>
-
-          <a class="about-service-link-card" href="services.html#creative">
-            <h3>Creative direction</h3>
-            <p>
-              Messaging, visual ideas, ad creative, content themes and practical campaign thinking.
-            </p>
-          </a>
-        </div>
-      </div>
-    </section>
-
-    <section class="section about-local">
-      <div class="container">
-        <div class="about-local__panel">
-          <div>
-            <p class="section-kicker">Manchester-based</p>
-            <h2>Local knowledge, wider reach.</h2>
-          </div>
-
-          <div class="about-local__copy">
-            <p>
-              We are based in Stockport, Greater Manchester, and we understand the kind of local businesses that need digital marketing to be practical, affordable and focused on real enquiries.
-            </p>
-
-            <p>
-              We work with Manchester and UK businesses across different sectors, including trades, sport, education, insurance, health, local services and growing online brands.
-            </p>
-
-            <div class="about-local__buttons">
-              <a class="btn btn-black" href="manchester-digital-marketing.html">Digital Marketing Manchester</a>
-              <a class="btn btn-ghost" href="marketing-for-trades.html">Marketing for Trades</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="blog-callout about-callout">
-      <div class="container">
-        <div class="blog-callout__inner">
-          <img src="image/stressed-pie.png" class="stressed-pie" alt="">
-
-          <h2>Need help with your digital marketing?</h2>
-
-          <p>
-            Whether you need paid ads, social content, landing pages, website support or a clearer plan, <a href="contact.html">get in touch</a> and we’ll point you in the right direction.
-          </p>
-        </div>
-      </div>
-    </section>
-
+    <div class="slider-dots" role="tablist" aria-label="Choose slide"></div>
+  </div>
+</section>
   </main>
 
   <footer class="site-footer">
