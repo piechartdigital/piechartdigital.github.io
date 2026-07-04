@@ -8483,3 +8483,42 @@ body.lightbox-open {
     margin-bottom: 18px;
   }
 }
+/* ------------------------------
+   Blog mobile burger click fix
+------------------------------ */
+
+.site-header {
+  position: relative;
+  z-index: 1000;
+}
+
+.header-inner {
+  position: relative;
+  z-index: 1001;
+}
+
+.nav-toggle {
+  position: relative;
+  z-index: 1002;
+  pointer-events: auto;
+}
+
+.blog-pie-writer {
+  pointer-events: none;
+}
+
+@media (max-width: 768px) {
+  .blog-hero {
+    position: relative;
+    overflow: hidden;
+  }
+
+  .blog-pie-writer {
+    z-index: 1;
+  }
+
+  .blog-hero__inner {
+    position: relative;
+    z-index: 2;
+  }
+}
