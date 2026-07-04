@@ -8591,3 +8591,22 @@ body.lightbox-open {
     order: 12 !important;
   }
 }
+/* ------------------------------
+   Mobile header click safety
+------------------------------ */
+
+.site-header {
+  position: relative;
+  z-index: 1000;
+}
+
+.header-inner {
+  position: relative;
+  z-index: 1001;
+}
+
+.nav-toggle {
+  position: relative;
+  z-index: 1002;
+  pointer-events: auto;
+}
