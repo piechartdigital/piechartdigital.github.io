@@ -8427,3 +8427,59 @@ body.lightbox-open {
   text-align: center;
   margin: 0 0 36px;
 }
+/* ------------------------------
+   Service side mobile accordions
+------------------------------ */
+
+.service-side-card--collapsible summary {
+  list-style: none;
+  cursor: pointer;
+}
+
+.service-side-card--collapsible summary::-webkit-details-marker {
+  display: none;
+}
+
+.service-side-card--collapsible summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.service-side-card--collapsible summary span {
+  font-family: "Space Grotesk", sans-serif;
+  font-size: clamp(1.35rem, 4vw, 1.8rem);
+  line-height: 1.05;
+  font-weight: 800;
+  letter-spacing: -0.04em;
+}
+
+.service-side-card--collapsible summary::after {
+  content: "+";
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 46px;
+  height: 46px;
+  flex: 0 0 46px;
+  border-radius: 999px;
+  background: #ffd400;
+  color: #0b0b0b;
+  font-weight: 900;
+  box-shadow: 0 6px 0 rgba(0, 0, 0, 0.14);
+}
+
+.service-side-card--collapsible[open] summary::after {
+  content: "−";
+}
+
+.service-side-card--collapsible .service-side-list {
+  margin-top: 22px;
+}
+
+@media (max-width: 640px) {
+  .service-side-card--ideal {
+    margin-bottom: 18px;
+  }
+}
