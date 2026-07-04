@@ -8610,3 +8610,54 @@ body.lightbox-open {
   z-index: 1002;
   pointer-events: auto;
 }
+/* ------------------------------
+   Contact page mobile form width fix
+------------------------------ */
+
+@media (max-width: 768px) {
+  .contact-main {
+    padding: 28px 0 42px;
+  }
+
+  .contact-main .container {
+    width: 100%;
+    max-width: none;
+    padding-inline: 16px;
+  }
+
+  .contact-layout {
+    display: grid !important;
+    grid-template-columns: 1fr !important;
+    gap: 22px;
+    width: 100%;
+  }
+
+  .contact-details,
+  .contact-form-wrap,
+  .contact-form {
+    width: 100% !important;
+    max-width: 100% !important;
+    min-width: 0 !important;
+  }
+
+  .contact-form-wrap {
+    box-sizing: border-box;
+  }
+
+  .contact-form__grid {
+    display: grid !important;
+    grid-template-columns: 1fr !important;
+    gap: 18px;
+  }
+
+  .contact-field input,
+  .contact-field textarea {
+    width: 100% !important;
+    box-sizing: border-box;
+  }
+
+  .contact-submit {
+    width: 100%;
+    justify-content: center;
+  }
+}
