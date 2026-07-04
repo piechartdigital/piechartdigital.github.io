@@ -8661,3 +8661,69 @@ body.lightbox-open {
     justify-content: center;
   }
 }
+/* ------------------------------
+   About page contact replacement
+------------------------------ */
+
+.about-contact-section {
+  padding-top: clamp(42px, 5vw, 72px);
+}
+
+.about-contact-heading {
+  margin-bottom: 28px;
+}
+
+.about-contact-heading h2 {
+  max-width: 900px;
+  margin-inline: auto;
+}
+
+.about-contact-heading p {
+  max-width: 680px;
+  margin-inline: auto;
+}
+
+.about-contact-panel {
+  max-width: 980px;
+  margin: 0 auto;
+  padding: clamp(24px, 4vw, 42px);
+  border-radius: 30px;
+  background: #ffffff;
+  border: 2px solid rgba(0, 0, 0, 0.1);
+  box-shadow: 0 12px 0 rgba(0, 0, 0, 0.08);
+}
+
+.about-contact-panel .contact-form-wrap,
+.about-contact-panel .contact-form {
+  width: 100%;
+}
+
+@media (max-width: 640px) {
+  .about-contact-section {
+    padding-top: 34px;
+  }
+
+  .about-contact-heading {
+    text-align: left;
+    margin-bottom: 22px;
+  }
+
+  .about-contact-heading h2,
+  .about-contact-heading p {
+    margin-inline: 0;
+  }
+
+  .about-contact-panel {
+    padding: 22px;
+    border-radius: 24px;
+  }
+
+  .about-contact-panel .contact-form__grid {
+    grid-template-columns: 1fr;
+  }
+
+  .about-contact-panel .contact-submit {
+    width: 100%;
+    justify-content: center;
+  }
+}
