@@ -361,17 +361,7 @@ You can also control cookies through your browser settings at any time.
              <p class="footer-small">© <span data-year></span> Piechart Digital</p>
 </div>
   </footer>
-  <script>
-    const navToggle = document.querySelector(".nav-toggle");
-    const siteNav = document.querySelector(".site-nav");
 
-    if (navToggle && siteNav) {
-      navToggle.addEventListener("click", () => {
-        const isOpen = siteNav.classList.toggle("is-open");
-        navToggle.setAttribute("aria-expanded", isOpen ? "true" : "false");
-      });
-    }
-  </script>
   <script src="js/main.js" defer></script>
 
 <div class="cookie-banner" id="cookieBanner" hidden>
