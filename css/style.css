@@ -8727,3 +8727,24 @@ body.lightbox-open {
     justify-content: center;
   }
 }
+.growth-page-allowance {
+  padding-top: 35px;
+}
+
+.growth-page-allowance .what-we-do-head {
+  margin-bottom: 35px;
+}
+
+.growth-page-allowance .what-we-do-head .section-kicker,
+.growth-page-allowance .what-we-do-head p {
+  display: none;
+}
+@media (max-width: 700px) {
+  .growth-page-allowance {
+    padding-top: 24px;
+  }
+
+  .growth-page-allowance .what-we-do-head {
+    margin-bottom: 24px;
+  }
+}
