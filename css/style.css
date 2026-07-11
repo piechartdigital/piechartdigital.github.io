@@ -8803,3 +8803,19 @@ body.lightbox-open {
   color: #111111;
   border: 1px solid rgba(0, 0, 0, 0.18);
 }
+.growth-services-mobile {
+  display: none;
+}
+
+@media (max-width: 767px) {
+  .growth-services-desktop {
+    display: none;
+  }
+
+  .growth-services-mobile {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 0;
+  }
+}
