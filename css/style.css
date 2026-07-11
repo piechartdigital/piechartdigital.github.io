@@ -8794,3 +8794,12 @@ body.lightbox-open {
   color: #111111;
   border: 1px solid rgba(0, 0, 0, 0.18);
 }
+.growth-option-card.growth-option-card--dark .growth-plan-list li {
+  color: #111111;
+}
+
+.growth-option-card.growth-option-card--dark .growth-plan-list li::before {
+  background: #ffffff;
+  color: #111111;
+  border: 1px solid rgba(0, 0, 0, 0.18);
+}
