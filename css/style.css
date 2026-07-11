@@ -8819,3 +8819,28 @@ body.lightbox-open {
     margin-top: 0;
   }
 }
+.growth-quote-mobile,
+.growth-services-mobile {
+  display: none;
+}
+
+@media (max-width: 767px) {
+  .growth-quote-desktop,
+  .growth-services-desktop {
+    display: none;
+  }
+
+  .growth-quote-mobile,
+  .growth-services-mobile {
+    display: flex;
+    width: 100%;
+  }
+
+  .growth-quote-mobile {
+    margin-top: 24px;
+  }
+
+  .growth-services-mobile {
+    margin-top: 16px;
+  }
+}
