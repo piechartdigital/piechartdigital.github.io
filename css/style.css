@@ -8748,3 +8748,27 @@ body.lightbox-open {
     margin-bottom: 24px;
   }
 }
+.growth-option-card--dark {
+  background: #ffd400;
+  color: #111111;
+}
+
+.growth-option-card--dark .growth-option-card__label {
+  background: #ffffff;
+  color: #111111;
+}
+
+.growth-option-card--dark h3,
+.growth-option-card--dark p,
+.growth-option-card--dark li {
+  color: #111111;
+}
+
+.growth-option-card--dark .growth-option-card__price {
+  color: #111111;
+}
+
+.growth-option-card--dark .ticks li::before {
+  background: #ffffff;
+  color: #111111;
+}
