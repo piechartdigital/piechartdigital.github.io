@@ -8772,3 +8772,25 @@ body.lightbox-open {
   background: #ffffff;
   color: #111111;
 }
+.growth-option-card--dark {
+  background: #ffd400;
+  color: #111111;
+}
+
+.growth-option-card--dark .growth-option-card__label {
+  background: #ffffff;
+  color: #111111;
+}
+
+.growth-option-card--dark h3,
+.growth-option-card--dark p,
+.growth-option-card--dark li,
+.growth-option-card--dark .growth-option-card__price {
+  color: #111111;
+}
+
+.growth-option-card--dark .ticks li::before {
+  background: #ffd400;
+  color: #111111;
+  border: 1px solid rgba(0, 0, 0, 0.18);
+}
