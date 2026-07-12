@@ -8844,3 +8844,32 @@ body.lightbox-open {
     margin-top: 16px;
   }
 }
+.growth-page-hero__visual {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  width: 100%;
+}
+
+.growth-page-hero__mascot {
+  display: block;
+  width: min(300px, 75%);
+  height: auto;
+  object-fit: contain;
+}
+
+.growth-page-hero__visual .growth-page-price-card {
+  width: 100%;
+}
+
+@media (max-width: 767px) {
+  .growth-page-hero__mascot {
+    display: none;
+  }
+
+  .growth-page-hero__visual {
+    display: block;
+  }
+}
