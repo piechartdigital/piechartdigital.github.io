@@ -8886,3 +8886,8 @@ body.lightbox-open {
     margin-top: 16px;
   }
 }
+@media (max-width: 767px) {
+  .growth-quote-mobile {
+    margin-top: 8px;
+  }
+}
