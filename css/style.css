@@ -8873,3 +8873,16 @@ body.lightbox-open {
     display: block;
   }
 }
+@media (max-width: 767px) {
+  .growth-quote-mobile {
+    order: 3;
+    width: 100%;
+    margin-top: 24px;
+  }
+
+  .growth-services-mobile {
+    order: 4;
+    width: 100%;
+    margin-top: 16px;
+  }
+}
