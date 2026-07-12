@@ -8896,3 +8896,8 @@ body.lightbox-open {
     margin-top: 0;
   }
 }
+@media (max-width: 767px) {
+  .growth-page-price-card {
+    margin-top: 0;
+  }
+}
