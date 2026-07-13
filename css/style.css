@@ -8901,3 +8901,33 @@ body.lightbox-open {
     margin-top: 0;
   }
 }
+.services-growth-plan__visual {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  gap: 18px;
+}
+
+.services-growth-plan__mascot {
+  display: block;
+  width: min(220px, 60%);
+  height: auto;
+  object-fit: contain;
+}
+
+.services-growth-plan__visual .services-growth-plan__price-card {
+  width: 100%;
+}
+
+/* Mobile stays as it currently is */
+@media (max-width: 767px) {
+  .services-growth-plan__mascot {
+    display: none;
+  }
+
+  .services-growth-plan__visual {
+    display: block;
+  }
+}
