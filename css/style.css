@@ -8953,3 +8953,15 @@ body.lightbox-open {
     justify-content: center;
   }
 }
+.trades-hero__mini span {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+}
+
+.trades-hero__mini span::after {
+  content: "✓";
+  color: #16a34a;
+  font-weight: 800;
+  line-height: 1;
+}
