@@ -9221,3 +9221,15 @@ body.lightbox-open {
   }
 
 }
+@media (max-width: 768px) {
+
+  .about-contact-section {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+  }
+
+  .about-contact-panel {
+    margin-top: 0;
+  }
+
+}
