@@ -9233,3 +9233,23 @@ body.lightbox-open {
   }
 
 }
+@media (max-width: 768px) {
+
+  .about-contact-heading {
+    text-align: center;
+    margin-bottom: 0.55rem;
+  }
+
+  .about-contact-heading h2 {
+    margin: 0;
+  }
+
+  .about-contact-heading p {
+    display: none;
+  }
+
+  .about-contact-panel {
+    margin-top: 0;
+  }
+
+}
