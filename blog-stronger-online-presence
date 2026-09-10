@@ -1,0 +1,741 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>How To Build A Stronger Online Presence For Your Business | Piechart Digital</title>
+
+  <meta
+    name="description"
+    content="Learn how to build a stronger online presence for your business using your website, Google profile, social media, reviews, content and digital advertising."
+  />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;700;800&display=swap"
+    rel="stylesheet"
+  />
+
+  <link rel="stylesheet" href="css/style.css?v=4" />
+  <link rel="icon" type="image/png" href="/favicon.png">
+  <link rel="shortcut icon" href="/favicon.png">
+</head>
+
+<body>
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header" data-header>
+  <div class="container header-inner">
+
+    <!-- LEFT: Brand -->
+    <a class="brand" href="index.html" aria-label="Piechart Digital home">
+      <img
+        class="brand-logo"
+        src="image/logo-piechart.png"
+        alt="Piechart Digital"
+        width="40"
+        height="40"
+      />
+      <span class="brand-stack">
+        <span class="brand-name">Piechart Digital</span>
+        <span class="brand-tagline">Manchester-based<br>
+        digital marketing studio</span>
+      </span>
+    </a>
+
+    <!-- MIDDLE: Nav -->
+    <nav class="site-nav" data-nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a class="nav-cta" href="contact.html">Contact</a></li>
+        <li class="nav-phone-item">
+          <a class="nav-phone-link" href="tel:01618837982">0161 883 7982</a>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- RIGHT: Phone -->
+    <a href="tel:01618837982" class="header-phone">
+      0161 883 7982
+    </a>
+
+    <!-- Burger -->
+    <button
+      class="nav-toggle"
+      type="button"
+      aria-label="Open menu"
+      aria-expanded="false"
+      data-nav-toggle
+    >
+      <span class="nav-toggle-lines" aria-hidden="true"></span>
+    </button>
+
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- HERO / TITLE -->
+  <section class="blog-hero">
+    <div class="container">
+      <div class="blog-hero__inner">
+        <a href="blog.html" class="blog-back">Blog</a>
+        <h1>How To Build A Stronger Online Presence For Your Business</h1>
+        <p>How your website, Google presence, social media, reviews and digital marketing can work together to help more people discover and trust your business.</p>
+        <b>By Jay Perrin</b>
+      </div>
+    </div>
+  </section>
+
+  <!-- ARTICLE -->
+  <section class="blog-article">
+    <div class="container blog-article__container">
+
+      <a href="blog.html" class="blog-back">← Back to blogs</a>
+
+      <p class="blog-meta"><b>10th September 2026</b> • Digital Marketing • UK Small Business</p>
+
+      <img
+        src="image/blog-august.jpg"
+        alt="Digital marketing and building a stronger online presence"
+        class="blog-featured-image"
+      />
+
+      <article class="blog-content">
+
+        <p>
+          Having a strong online presence is one of the most valuable things a business can build.
+          Whether somebody hears about you through a recommendation, sees one of your adverts,
+          finds you on Google or discovers you on social media, there is a good chance they will
+          look you up online before deciding what to do next.
+        </p>
+
+        <p>
+          What they find at that point matters.
+        </p>
+
+        <p>
+          A professional website, an active Google profile, recent reviews, useful social media
+          content and clear information about what you do all help to create confidence in your
+          business. Together, they make it easier for potential customers to understand who you
+          are, what you offer and why they should choose you.
+        </p>
+
+        <p>
+          The good news is that building a stronger online presence does not mean being everywhere
+          at once. It is much more about making the important parts of your digital marketing work
+          together.
+        </p>
+
+        <h2>Start with a clear and useful website</h2>
+
+        <p>
+          Your website is often the centre of your online presence. It is where people go when
+          they want to learn more about your business, compare your services or decide whether
+          they are ready to get in touch.
+        </p>
+
+        <p>
+          A good website does not need to be huge or complicated. For many small businesses,
+          simple is better.
+        </p>
+
+        <p>
+          Visitors should be able to understand the basics within a few seconds:
+        </p>
+
+        <ul>
+          <li>What your business does</li>
+          <li>Who you help</li>
+          <li>Where you are based or the areas you cover</li>
+          <li>Why somebody should choose you</li>
+          <li>How they can contact you or take the next step</li>
+        </ul>
+
+        <p>
+          Clear navigation, strong photography, straightforward copy and visible calls to action
+          can make a big difference.
+        </p>
+
+        <p>
+          Your website should also work properly on mobile. A large proportion of people will
+          discover your business while browsing on their phone, so the mobile experience is every
+          bit as important as desktop.
+        </p>
+
+        <h2>Make the most of your Google Business Profile</h2>
+
+        <p>
+          For local businesses in particular, Google can be one of the most powerful parts of your
+          online presence.
+        </p>
+
+        <p>
+          Your Google Business Profile can appear when people search for your company directly,
+          look for services in their area or browse Google Maps.
+        </p>
+
+        <p>
+          Keeping it accurate and up to date helps both potential customers and Google understand
+          your business.
+        </p>
+
+        <p>
+          Make sure important information such as your opening hours, phone number, website,
+          services and business category is correct. Adding recent photographs and keeping your
+          profile active can also help it feel much more trustworthy.
+        </p>
+
+        <p>
+          If you are a local business serving Manchester, Stockport or the surrounding areas,
+          your Google presence can often be one of the first places a new customer interacts with
+          your brand.
+        </p>
+
+        <h2>Build a steady stream of genuine reviews</h2>
+
+        <p>
+          Reviews are one of the strongest trust signals available to a business online.
+        </p>
+
+        <p>
+          They show potential customers that real people have already chosen your business and
+          had a positive experience.
+        </p>
+
+        <p>
+          A business with plenty of recent, genuine reviews immediately feels more established
+          and credible than one with little or no feedback.
+        </p>
+
+        <p>
+          Rather than waiting for reviews to appear naturally, make asking for them part of your
+          normal customer process.
+        </p>
+
+        <p>
+          This could be as simple as sending a short message after finishing a job or completing
+          an order and asking whether the customer would mind leaving some feedback.
+        </p>
+
+        <p>
+          Over time, those individual reviews become a valuable part of your wider marketing.
+        </p>
+
+        <h2>Use social media to show what your business is really like</h2>
+
+        <p>
+          Social media gives potential customers a glimpse behind the scenes of your business.
+          It can show your work, your people, your personality and what is happening day to day.
+        </p>
+
+        <p>
+          You do not need to post constantly and you certainly do not need every post to look
+          like a polished advertising campaign.
+        </p>
+
+        <p>
+          Some of the most useful content is often the simplest:
+        </p>
+
+        <ul>
+          <li>Recent projects or completed work</li>
+          <li>Before and after photographs</li>
+          <li>New products or services</li>
+          <li>Customer reviews and testimonials</li>
+          <li>Behind-the-scenes updates</li>
+          <li>Helpful advice related to your industry</li>
+          <li>News from your business or team</li>
+        </ul>
+
+        <p>
+          The aim is to give somebody who discovers your Facebook, Instagram or LinkedIn profile
+          reassurance that your business is active, professional and genuinely doing the work you
+          say you do.
+        </p>
+
+        <h2>Keep your branding consistent</h2>
+
+        <p>
+          A strong online presence also feels joined up.
+        </p>
+
+        <p>
+          Somebody might first see your business on Facebook, then visit your website, check your
+          Google reviews and come back a week later after seeing another advert.
+        </p>
+
+        <p>
+          Ideally, each of those interactions should feel like they are coming from the same
+          business.
+        </p>
+
+        <p>
+          That does not mean everything needs to look identical. It simply means using consistent
+          colours, logos, photography, messaging and tone of voice wherever your business appears.
+        </p>
+
+        <p>
+          Consistency makes your business easier to recognise and helps create a more professional
+          impression over time.
+        </p>
+
+        <h2>Create useful content that answers real questions</h2>
+
+        <p>
+          Content is another great way to strengthen your online presence.
+        </p>
+
+        <p>
+          Think about the questions customers regularly ask you. Those questions can become blog
+          posts, social media content, videos, guides or useful sections on your website.
+        </p>
+
+        <p>
+          A roofing company might explain how to spot signs of a leaking roof. A solicitor might
+          answer common questions about a particular legal process. A restaurant could share
+          information about new menus, events or ingredients.
+        </p>
+
+        <p>
+          Useful content helps demonstrate your knowledge while giving people another reason to
+          discover your business through search engines and social media.
+        </p>
+
+        <h2>Use paid advertising to reach more of the right people</h2>
+
+        <p>
+          Once the foundations of your online presence are in place, paid advertising can help
+          you reach more potential customers.
+        </p>
+
+        <p>
+          Meta Ads can be particularly useful for introducing your business to people through
+          Facebook and Instagram, while Google Ads can help put your business in front of people
+          who are actively searching for a particular product or service.
+        </p>
+
+        <p>
+          The strongest campaigns usually work alongside the rest of your digital presence rather
+          than separately from it.
+        </p>
+
+        <p>
+          An advert might generate the first click, but the potential customer may still check
+          your website, reviews and social media before deciding to enquire.
+        </p>
+
+        <p>
+          That is why improving the wider picture can make your advertising more effective too.
+        </p>
+
+        <h2>Make it easy for people to contact you</h2>
+
+        <p>
+          It sounds obvious, but one of the most important parts of your online presence is making
+          it easy for somebody to take the next step.
+        </p>
+
+        <p>
+          Do not make visitors hunt around your website for a phone number or contact form.
+        </p>
+
+        <p>
+          Depending on your business, that might mean providing:
+        </p>
+
+        <ul>
+          <li>A clear contact button</li>
+          <li>A simple enquiry form</li>
+          <li>A visible phone number</li>
+          <li>An email address</li>
+          <li>WhatsApp</li>
+          <li>Online booking</li>
+          <li>A request a quote option</li>
+        </ul>
+
+        <p>
+          Different customers prefer different ways of communicating, so providing a few sensible
+          options can help reduce friction.
+        </p>
+
+        <h2>Focus on the places your customers actually use</h2>
+
+        <p>
+          Building an online presence does not mean creating an account on every platform you can
+          find.
+        </p>
+
+        <p>
+          A better approach is to understand where your customers are most likely to discover and
+          research businesses like yours.
+        </p>
+
+        <p>
+          For a local tradesperson, that might mean concentrating on Google, Facebook and a strong
+          website. For a visual consumer brand, Instagram might play a much bigger role. A B2B
+          company may get more value from LinkedIn and Google.
+        </p>
+
+        <p>
+          You will usually get better results from doing a few relevant things properly than
+          spreading yourself too thinly across ten different platforms.
+        </p>
+
+        <h2>Keep everything up to date</h2>
+
+        <p>
+          One of the easiest ways for an online presence to become less effective is simply
+          letting it go stale.
+        </p>
+
+        <p>
+          An outdated website, incorrect opening hours, old photographs or social profiles that
+          have not been updated for years can create uncertainty.
+        </p>
+
+        <p>
+          You do not need to constantly redesign everything. A quick check every few months can be
+          enough to make sure important details are still accurate and your business looks active.
+        </p>
+
+        <p>
+          It is also worth reviewing your website occasionally from the customer's point of view.
+          Make sure your services still reflect what you actually offer and that your best work,
+          latest reviews and current contact details are easy to find.
+        </p>
+
+        <h2>Think of your online presence as one connected system</h2>
+
+        <p>
+          The strongest digital marketing rarely comes from one single platform.
+        </p>
+
+        <p>
+          Your website, Google listing, reviews, social media, content and advertising all support
+          one another.
+        </p>
+
+        <p>
+          Somebody may discover your business through an advert, read your reviews on Google,
+          look through examples of your work on Instagram and then return to your website to send
+          an enquiry.
+        </p>
+
+        <p>
+          Each part helps move that person a little closer to becoming a customer.
+        </p>
+
+        <p>
+          Thinking about the whole journey rather than individual marketing channels can help you
+          create a much stronger overall impression.
+        </p>
+
+        <h2>Small improvements can make a big difference</h2>
+
+        <p>
+          You do not need to completely overhaul your digital marketing overnight.
+        </p>
+
+        <p>
+          Start with a few practical improvements.
+        </p>
+
+        <ul>
+          <li>Update your Google Business Profile</li>
+          <li>Add some recent reviews to your website</li>
+          <li>Refresh outdated website content</li>
+          <li>Post examples of recent work on social media</li>
+          <li>Improve the calls to action on your website</li>
+          <li>Make sure your branding is consistent</li>
+          <li>Ask customers for reviews more regularly</li>
+        </ul>
+
+        <p>
+          Each improvement strengthens the overall picture potential customers see when they
+          search for your business.
+        </p>
+
+        <h2>Final thoughts on building a stronger online presence</h2>
+
+        <p>
+          A strong online presence helps people discover your business, understand what you do and
+          feel confident enough to take the next step.
+        </p>
+
+        <p>
+          It is not about chasing every new marketing trend or posting constantly. It is about
+          making sure the important parts of your digital presence are clear, trustworthy and
+          working together.
+        </p>
+
+        <p>
+          Whether you are a small business in Manchester, Stockport or anywhere else in the UK,
+          investing time in your website, Google presence, reviews, social media and digital
+          marketing can make it much easier for potential customers to choose you.
+        </p>
+
+        <p>
+          If you would like help improving your online presence, Piechart Digital works with small
+          businesses on websites, paid advertising, social media and wider digital marketing
+          strategy.
+        </p>
+
+        <a href="blog.html" class="blog-back">← Back to blogs</a>
+        <br><br>
+
+      </article>
+    </div>
+  </section>
+
+  <section class="section section-blog-preview">
+    <div class="container">
+
+      <div class="what-we-do-head">
+        <h2 class="reveal-on-scroll">Similar blog entries</h2>
+      </div>
+
+      <div class="blog-preview-grid">
+
+        <article class="blog-preview-card">
+          <a class="blog-preview-image-link" href="blog-social-proof.html">
+            <img src="image/blog-2.jpg" alt="The importance of social proof" loading="lazy" />
+          </a>
+
+          <div class="blog-preview-body">
+            <h3>
+              <a href="blog-social-proof.html">The Importance Of Social Proof In Digital Marketing</a>
+            </h3>
+            <a class="btn btn-ghost blog-preview-cta" href="blog-social-proof.html">
+              Read article
+            </a>
+          </div>
+        </article>
+
+        <article class="blog-preview-card">
+          <a class="blog-preview-image-link" href="blog-website-not-getting-enquiries.html">
+            <img src="image/blog-6.jpg" alt="Small business website enquiries" loading="lazy" />
+          </a>
+
+          <div class="blog-preview-body">
+            <h3>
+              <a href="blog-website-not-getting-enquiries.html">Why Your Small Business Website Is Not Getting Enquiries</a>
+            </h3>
+            <a class="btn btn-ghost blog-preview-cta" href="blog-website-not-getting-enquiries.html">
+              Read article
+            </a>
+          </div>
+        </article>
+
+        <article class="blog-preview-card">
+          <a class="blog-preview-image-link" href="blog-ad-spend.html">
+            <img src="image/blog-5.jpg" alt="Small business digital advertising" loading="lazy" />
+          </a>
+
+          <div class="blog-preview-body">
+            <h3>
+              <a href="blog-ad-spend.html">How Much Should Small Businesses Spend On Ads?</a>
+            </h3>
+            <a class="btn btn-ghost blog-preview-cta" href="blog-ad-spend.html">
+              Read article
+            </a>
+          </div>
+        </article>
+
+      </div>
+
+      <div class="blog-preview-footer">
+        <a class="btn btn-ghost" href="blog.html">View all Blog posts</a>
+      </div>
+
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+
+    <div class="footer-left">
+      <div class="footer-brand">
+        <img
+          class="footer-logo"
+          src="image/logo-piechart.png"
+          alt="Piechart Digital"
+          width="32"
+          height="32"
+          loading="lazy"
+          decoding="async"
+        />
+        <span class="brand-name">Piechart Digital</span>
+      </div>
+
+      <p class="footer-note">Bold marketing, clean execution.</p>
+
+      <div class="footer-map-card">
+        <div class="footer-map-head">
+          <h3>Where we’re based</h3>
+          <p>20 Swan Street, Manchester, M4 5JW</p>
+        </div>
+
+        <iframe
+          src="https://www.google.com/maps?q=Swan+St,+Manchester+M4+5JW&z=11&output=embed"
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          allowfullscreen=""
+          title="Map showing Manchester based office"
+        ></iframe>
+      </div>
+    </div>
+
+    <div class="footer-links">
+      <a href="index.html">Home</a>
+      <a href="services.html">Services</a>
+      <a href="portfolio.html">Portfolio</a>
+      <a href="about.html">About</a>
+      <a href="blog.html">Blog</a>
+      <a href="contact.html">Contact</a>
+      <a href="get-quote.html">Get Free Quote</a>
+      <a href="privacy-policy.html">Privacy Policy</a>
+    </div>
+
+    <div class="footer-right">
+
+      <a class="footer-phone" href="tel:01618837982">
+        0161 883 7982
+      </a>
+
+      <a class="footer-email" href="mailto:hello@piechartdigital.co.uk">
+        hello@piechartdigital.co.uk
+      </a>
+
+      <div class="socials" aria-label="Social links">
+
+        <a
+          class="social"
+          href="https://www.linkedin.com/company/piechart-digital-marketing"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="LinkedIn"
+        >
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M20.45 20.45h-3.56v-5.57c0-1.33-.03-3.03-1.85-3.03-1.85 0-2.13 1.44-2.13 2.93v5.67H9.35V9h3.42v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.26 2.37 4.26 5.45v6.29ZM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12ZM7.12 20.45H3.56V9h3.56v11.45Z" />
+          </svg>
+        </a>
+
+        <a
+          class="social"
+          href="https://www.instagram.com/piechartdigitalmarketing/"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Instagram"
+        >
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5Zm10 2H7a3 3 0 0 0-3 3v10a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3V7a3 3 0 0 0-3-3Zm-5 4.2A3.8 3.8 0 1 1 8.2 12 3.8 3.8 0 0 1 12 8.2Zm0 2A1.8 1.8 0 1 0 13.8 12 1.8 1.8 0 0 0 12 10.2ZM18 7.3a1 1 0 1 1-1-1 1 1 0 0 1 1 1Z" />
+          </svg>
+        </a>
+
+        <a
+          class="social"
+          href="https://www.facebook.com/profile.php?id=61588368569198"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Facebook"
+        >
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M13.5 22v-8h2.7l.4-3h-3.1V9.1c0-.87.24-1.46 1.48-1.46H16.7V5c-.3-.04-1.35-.13-2.58-.13-2.55 0-4.29 1.56-4.29 4.43V11H7v3h2.83v8h3.67Z" />
+          </svg>
+        </a>
+
+      </div>
+
+      <div class="footer-nd-card">
+        <div class="footer-nd-tick">✓</div>
+
+        <div class="footer-nd-content">
+          <p class="footer-nd-title">Neurodivergent friendly</p>
+          <p class="footer-nd-text">
+            Clear communication &amp; flexible ways of working. Find out more
+            <a href="neurodiversity.html"><u>here.</u></a>
+          </p>
+        </div>
+      </div>
+
+      <div class="footer-manchester">
+        <span class="manchester-text">Made in Manchester</span>
+
+        <div class="manchester-bee-wrap" aria-hidden="true">
+          <img
+            src="image/manchester-bee.png"
+            alt="Manchester bee"
+            class="manchester-bee"
+          />
+
+          <span class="bee-swarm">
+            <span class="mini-bee mini-bee-1"></span>
+            <span class="mini-bee mini-bee-2"></span>
+            <span class="mini-bee mini-bee-3"></span>
+            <span class="mini-bee mini-bee-4"></span>
+            <span class="mini-bee mini-bee-5"></span>
+            <span class="mini-bee mini-bee-6"></span>
+            <span class="mini-bee mini-bee-7"></span>
+            <span class="mini-bee mini-bee-8"></span>
+            <span class="mini-bee mini-bee-9"></span>
+            <span class="mini-bee mini-bee-10"></span>
+            <span class="mini-bee mini-bee-11"></span>
+            <span class="mini-bee mini-bee-12"></span>
+            <span class="mini-bee mini-bee-13"></span>
+            <span class="mini-bee mini-bee-14"></span>
+            <span class="mini-bee mini-bee-15"></span>
+            <span class="mini-bee mini-bee-16"></span>
+            <span class="mini-bee mini-bee-17"></span>
+            <span class="mini-bee mini-bee-18"></span>
+          </span>
+        </div>
+
+        <p class="footer-small">© <span data-year></span> Piechart Digital</p>
+      </div>
+
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js" defer></script>
+
+<div class="cookie-banner" id="cookieBanner" hidden>
+  <div class="cookie-banner__inner">
+
+    <div class="cookie-banner__copy">
+      <h3>Cookies & privacy</h3>
+
+      <p>
+        We use essential cookies to help the site work properly. We may also use optional cookies
+        in future for things like performance tracking and advertising. You can accept or reject
+        optional cookies below. Read more in our
+        <a href="privacy-policy.html">Privacy Policy</a>.
+      </p>
+    </div>
+
+    <div class="cookie-banner__actions">
+      <button class="btn btn-ghost cookie-btn" id="cookieReject" type="button">
+        Reject optional
+      </button>
+
+      <button class="btn btn-black cookie-btn" id="cookieAccept" type="button">
+        Accept all
+      </button>
+    </div>
+
+  </div>
+</div>
+
+</body>
+</html>
