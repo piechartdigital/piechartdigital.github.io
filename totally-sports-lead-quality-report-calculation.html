@@ -1,1 +1,124 @@
+<html>
+  <main id="main">
+  <section class="section">
+    <div class="container">
+      <p class="section-kicker">Totally Sports Insurance</p>
+      <h1>How lead quality is calculated</h1>
+      <p>
+        Each Meta lead gets a score out of 10. The sport and phone number carry
+        the most weight because they indicate how well the enquiry fits the sports
+        we prioritise and whether the phone number is in a format we can call.
+      </p>
+    </div>
+  </section>
 
+  <section class="section" aria-labelledby="lead-score">
+    <div class="container">
+      <h2 id="lead-score">Individual lead scores</h2>
+      <p>
+        Sport and phone number each contribute up to <strong>4 points</strong>.
+        First name contributes up to <strong>2 points</strong>.
+      </p>
+
+      <h3>Sport</h3>
+      <ul>
+        <li><strong>4 points</strong> for a recognised Tier 1 sport. These are motocross (including MX), motorsport, rugby, mountain biking (including MTB), downhill and enduro.</li>
+        <li><strong>2 points</strong> for boxing, kickboxing, MMA, American football, cycling, rock climbing, football, ice hockey, BMX, skateboarding, tennis, swimming, wrestling, surfing, snowboarding, skiing, Gaelic football or lacrosse. Recognised variants such as “footy” and “mixed martial arts” also qualify.</li>
+        <li><strong>1 point</strong> for an unlisted answer of one or two words that passes the basic text checks.</li>
+        <li><strong>0 points</strong> for blank or junk entries, or unrecognised answers of three or more words.</li>
+      </ul>
+      <p>The same sport rules apply across campaigns. For example, football earns 2 points even when the lead came from an MTB ad.</p>
+
+      <h3>Phone number</h3>
+      <ul>
+        <li><strong>4 points</strong> for a standard UK mobile or 01/02 landline format, with a leading 0 or +44.</li>
+        <li><strong>2 points</strong> for other plausible UK number formats.</li>
+        <li><strong>0 points</strong> for non-UK numbers, missing or invalid entries, and obvious dummy numbers.</li>
+      </ul>
+      <p>The phone check assesses the number’s format only.</p>
+
+      <h3>First name</h3>
+      <ul>
+        <li><strong>2 points</strong> for a first name on the reference list or a recognised spelling variant.</li>
+        <li><strong>1 point</strong> for an unlisted first name that passes the basic checks.</li>
+        <li><strong>0 points</strong> for missing or junk entries, or when the full name contains letters outside A–Z, including accented letters. Spaces and common name punctuation are allowed.</li>
+      </ul>
+
+      <h3>When a lead loses a point</h3>
+      <p>
+        The report adds the three field scores. If at least two fields each score
+        1 point or less, it subtracts 1 from the total, with a minimum of zero.
+        For example, 4 for phone, 1 for sport and 1 for name gives
+        <strong>5/10</strong> after the deduction.
+      </p>
+    </div>
+  </section>
+
+  <section class="section" aria-labelledby="summary">
+    <div class="container">
+      <h2 id="summary">The three headline scores</h2>
+      <p>
+        For each period, the report adds the final scores of the individual leads
+        and divides by the number of leads. Each lead counts equally.
+      </p>
+      <ul>
+        <li><strong>Yesterday</strong> covers the previous UK calendar day.</li>
+        <li><strong>Running seven days</strong> covers the seven UK calendar days ending yesterday.</li>
+        <li><strong>Last week</strong> covers the most recently completed Saturday-to-Friday reporting week.</li>
+      </ul>
+      <p>
+        The report uses the original Meta lead emails. Website enquiries are
+        excluded. A period with no qualifying leads shows a dash.
+      </p>
+    </div>
+  </section>
+
+  <section class="section" aria-labelledby="campaigns">
+    <div class="container">
+      <h2 id="campaigns">The seven-day campaign table</h2>
+      <p>
+        The table groups the running seven-day leads by campaign. The
+        <strong>Tier 1 sports</strong> column shows the percentage of each
+        campaign’s leads that earned all 4 sport points.
+      </p>
+      <p>
+        Each campaign’s quality score starts with the average of its individual
+        lead scores. If the campaign has <strong>at least 4 leads</strong> and
+        <strong>fewer than 50%</strong> have a Tier 1 sport, the report subtracts
+        1 point from that average, with a minimum of zero. This adjustment
+        applies only to the campaign table.
+      </p>
+      <p>
+        For example, a campaign with 8 leads and 3 Tier 1 sport answers shows
+        <strong>38%</strong> in the Tier 1 sports column. If its lead average
+        rounds to 8.6, its campaign quality score displays as <strong>7.6/10</strong>.
+      </p>
+    </div>
+  </section>
+
+  <section class="section" aria-labelledby="display">
+    <div class="container">
+      <h2 id="display">Rounding and colours</h2>
+      <p>
+        Average scores round to one decimal place. Whole scores display without
+        a trailing zero, such as 8/10. The colours follow the displayed score.
+      </p>
+      <table>
+        <caption>Score bands out of 10</caption>
+        <thead>
+          <tr>
+            <th scope="col">Band</th>
+            <th scope="col">Headline and lead scores</th>
+            <th scope="col">Campaign scores</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><th scope="row">Red</th><td>0–4.9</td><td>0–4.9</td></tr>
+          <tr><th scope="row">Orange</th><td>5–7.9</td><td>5–7.4</td></tr>
+          <tr><th scope="row">Green</th><td>8–10</td><td>7.5–10</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+</main>
+</html>
